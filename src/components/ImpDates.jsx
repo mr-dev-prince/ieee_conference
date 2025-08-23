@@ -74,9 +74,9 @@ const statusClasses = (status) => {
 
 export default function ImpDates() {
   return (
-    <section className="px-4 py-12 max-w-6xl mx-auto" id="schedule">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">Important Dates</h2>
+    <section className="px-4 pt-24 pb-6 max-w-6xl mx-auto" id="schedule">
+      <div className="text-center mb-12 border-b border-dashed">
+        <h2 className="text-4xl font-bold mb-8">Important Dates</h2>
         <p className="text-gray-600 mt-2">
           Stay updated with all the key milestones for ICBDML 2025. Mark your
           calendar and don't miss any crucial deadlines!

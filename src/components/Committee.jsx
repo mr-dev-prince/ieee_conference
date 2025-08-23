@@ -1,5 +1,6 @@
 import ss from "../assets/sunita_singh.jpg";
 import gt from "../assets/gstomar.jpg";
+
 const committeeData = {
   chiefPatron: [
     {
