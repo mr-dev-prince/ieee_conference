@@ -115,8 +115,6 @@ export default function CommitteePage() {
             },
           ]}
         />
-
-        {/* Publicity Chairs */}
         <CommitteeTable
           title="Publicity Committee Chairs"
           members={[

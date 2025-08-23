@@ -127,8 +127,6 @@ const PastConf = () => {
             </table>
           </div>
         </div>
-
-        {/* Call to Action */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold mb-3">Join Our Upcoming Events</h3>
           <p className="text-gray-600 mb-6">

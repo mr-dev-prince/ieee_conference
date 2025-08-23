@@ -23,7 +23,6 @@ export default function CallForPapers() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center text-white">
         <div className="absolute inset-0">
           <img
@@ -58,8 +57,6 @@ export default function CallForPapers() {
           </div>
         </div>
       </section>
-
-      {/* Call for Papers Summary */}
       <section className="py-16 px-6 md:px-20 bg-gray-50">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Call for Papers</h2>
@@ -98,8 +95,6 @@ export default function CallForPapers() {
           </div>
         </div>
       </section>
-
-      {/* Research Topics */}
       <section className="py-16 px-6 md:px-20 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">

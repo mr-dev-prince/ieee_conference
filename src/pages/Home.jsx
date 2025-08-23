@@ -78,7 +78,6 @@ export default function Home() {
         </div>
       </section>
       <Committee />
-      {/* Schedule Timeline (sample) */}
       <ImpDates />
     </div>
   );

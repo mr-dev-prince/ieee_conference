@@ -36,8 +36,6 @@ export default function Hero() {
         ))}
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
-
-      {/* Content */}
       <div className="relative z-10 px-6">
         <div className="flex justify-center items-center gap-2 text-lg mb-4">
           <FaCalendarAlt /> January 23-24, 2026 • Bhopal, India

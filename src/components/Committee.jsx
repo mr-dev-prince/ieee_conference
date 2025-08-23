@@ -52,7 +52,7 @@ const CommitteeSection = ({ title, members }) => (
           key={i}
           className="flex items-center gap-4 p-4 rounded-lg mb-3 shadow-sm h-[20vh] hover:scale-105 duration-200 hover:shadow-sm shadow-blue-600 "
         >
-          <div className="w-24 h-24 rounded-full flex items-center justify-center overflow-hidden bg-blue-600 text-white">
+          <div className="w-18 h-18 md:w-24 md:h-24 rounded-full flex items-center justify-center overflow-hidden bg-blue-600 text-white">
             {m?.image ? (
               <img src={m?.image} alt="" />
             ) : (
