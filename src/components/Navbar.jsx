@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav className="fixed top-0 left-0 w-full bg-white shadow z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-          <div className="text-xl font-bold">ICBDML-2026</div>
+          <div className=" font-black text-3xl text-blue-600">ICBDML-2026</div>
           <ul className="hidden md:flex space-x-6 font-medium">
             <li>
               <a href="#home" className="hover:text-blue-600">

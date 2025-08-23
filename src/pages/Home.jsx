@@ -23,11 +23,11 @@ import {
   FaUserPlus,
 } from "react-icons/fa";
 import Committee from "./Committee";
+import ImpDates from "../components/ImpDates";
 
 export default function Home() {
   return (
     <div className="font-sans text-gray-800">
-      {/* Hero Section */}
       <section
         id="home"
         className="relative h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 text-white"
@@ -125,71 +125,7 @@ export default function Home() {
       </section>
       <Committee />
       {/* Schedule Timeline (sample) */}
-      <section id="schedule" className="bg-gray-50 py-16 px-6">
-        <h2 className="text-3xl font-bold text-center mb-10">
-          Important Dates
-        </h2>
-        <div className="space-y-8 max-w-4xl mx-auto">
-          <TimelineItem
-            icon={<FaRocket />}
-            title="Paper Submission Opens"
-            date="July 15, 2025"
-            status="Upcoming"
-          />
-          <TimelineItem
-            icon={<FaClock />}
-            title="Full Paper Submission Deadline"
-            date="Dec 10, 2025"
-            status="Upcoming"
-          />
-          <TimelineItem
-            icon={<FaCheckCircle />}
-            title="Acceptance Notification"
-            date="Nov 15, 2025"
-            status="Upcoming"
-          />
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer id="contact" className="bg-gray-900 text-gray-200 py-10 mt-10">
-        <div className="max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
-          <div>
-            <h3 className="font-bold mb-2">About IES College</h3>
-            <p className="text-sm">
-              The IES College of Technology, Bhopal, promoted by Infotech
-              Education Society, has been working towards excellence in
-              education since 1999.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold mb-2">Quick Links</h3>
-            <ul className="space-y-1 text-sm">
-              <li>
-                <a href="#home">Conference</a>
-              </li>
-              <li>
-                <a href="#call">Call for Papers</a>
-              </li>
-              <li>
-                <a href="#committee">Committee</a>
-              </li>
-              <li>
-                <a href="#register">Registration</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold mb-2">Contact Info</h3>
-            <p className="text-sm">Bhopal, MP 462044</p>
-            <p className="text-sm">+91-9893216819</p>
-            <p className="text-sm">dr.rajeshnema@iesbpl.ac.in</p>
-          </div>
-        </div>
-        <div className="text-center text-sm text-gray-500 mt-6">
-          © 2024 ICBDML Conference. All rights reserved.
-        </div>
-      </footer>
+      <ImpDates />
     </div>
   );
 }
