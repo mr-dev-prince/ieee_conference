@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-sm text-gray-500 mt-6">
-          © 2024 ICBDML Conference. All rights reserved.
+          © 2026 ICBDML Conference. All rights reserved.
         </div>
       </footer>
     </div>

@@ -120,6 +120,43 @@ export default function CallForPapers() {
           </div>
         </div>
       </section>
+      <section className="py-16 px-6 md:px-20 bg-gray-50 space-y-3">
+        <div className="max-w-5xl mx-auto text-left flex flex-col">
+          <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
+            Call For Papers Website URL{" "}
+          </p>
+          <a
+            href="https://cmt3.research.microsoft.com/ICBDML2026"
+            className="text-blue-600 underline bg-gray-200 p-2 rounded-b-sm"
+          >
+            https://cmt3.research.microsoft.com/ICBDML2026
+          </a>
+        </div>
+        <div className="max-w-5xl mx-auto text-left flex flex-col">
+          <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
+            Abstract Submission Date{" "}
+          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">2025-7-15</p>
+        </div>
+        <div className="max-w-5xl mx-auto text-left flex flex-col">
+          <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
+            Full Paper Submission Date{" "}
+          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">2025-12-10</p>
+        </div>
+        <div className="max-w-5xl mx-auto text-left flex flex-col">
+          <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
+            Notification of Acceptance Date{" "}
+          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">2025-11-15</p>
+        </div>
+        <div className="max-w-5xl mx-auto text-left flex flex-col">
+          <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
+            Final Paper Submission Date
+          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">2026-06-15</p>
+        </div>
+      </section>
     </div>
   );
 }
