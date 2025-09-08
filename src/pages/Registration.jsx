@@ -70,7 +70,7 @@ export default function Registration() {
           </p>
         </div>
       </div>
-      <section className="max-w-6xl mx-auto px-6 py-12">
+      <section className="max-w-6xl mx-auto px-6 py-12 hidden">
         <h2 className="text-2xl font-bold text-center mb-8">
           Registration Fees
         </h2>

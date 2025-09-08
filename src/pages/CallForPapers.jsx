@@ -90,7 +90,7 @@ export default function CallForPapers() {
               <li>Submission Deadline: 15th May 2026</li>
               <li>Notification of Acceptance: 20th June 2026</li>
               <li>Camera Ready Submission: 5th July 2026</li>
-              <li>Conference Date: 20–21 August 2026</li>
+              <li>Conference Date: 23-24 January 2026</li>
             </ul>
           </div>
         </div>

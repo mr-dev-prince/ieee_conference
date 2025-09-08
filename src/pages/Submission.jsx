@@ -58,7 +58,7 @@ export default function Submission() {
             {
               step: "4",
               title: "Publication",
-              desc: "Accepted papers will be published in conference proceedings and linked on IEEE Xplore after presentation at the conference.",
+              desc: "Authors are invited to submit full papers for consideration with a maximum length limit of 6 printed pages including all the figures, references, and appendices. Submission of paper must be original and should not have been previously published or under consideration for publication. All papers will be sent for peer review and the corresponding author will be notified of the outcome of the review process. The selected Research Papers of the conference will be submitted to IEEE explore subjected to further review of quality and Plagiarism check as per IEEE policy will be published IEEE explore  At least one of the authors of each accepted paper must register for the conference and present their paper in person at the conference.",
             },
           ].map((s, i) => (
             <div
