@@ -21,9 +21,9 @@ export default function Submission() {
               ICBDML-2026 - International Conference on Optimization Techniques
             </span>
           </p>
-          <div className="inline-flex items-center animate-pulse gap-2 bg-red-600 px-6 py-3 rounded-xl shadow-lg font-semibold">
+          <div className="inline-flex items-center animate-pulse gap-2 bg-green-700 px-6 py-3 rounded-xl shadow-lg font-semibold">
             <i className="fas fa-exclamation-circle"></i>
-            Paper Submission: Currently Closed
+            Paper Submission: Ongoing
           </div>
         </div>
       </header>
@@ -48,7 +48,7 @@ export default function Submission() {
             {
               step: "2",
               title: "Online Submission",
-              desc: "Submit your paper through the EDAS online submission system. Create an account and follow the submission guidelines carefully.",
+              desc: "Submit your paper electronically through the Microsoft CMT portal. Create an account and follow the author submission guidelines carefully.",
             },
             {
               step: "3",
@@ -74,31 +74,85 @@ export default function Submission() {
           ))}
         </div>
       </section>
-      <section className="py-16 px-6 md:px-12 bg-white">
+      <section id="guidelines" className="pt-16 px-6 md:px-12 bg-white">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-indigo-700">
-            Submission Guidelines
+            Author Submission Guidelines
           </h2>
           <p className="text-gray-600 mt-2">
-            Important guidelines and requirements for paper submission
+            Important author guidelines for paper submission.
           </p>
         </div>
         <div className="flex justify-center items-center">
           <div className="p-6 bg-gray-50 rounded-2xl shadow-md hover:shadow-lg shadow-orange-600 transition ">
-            <div className="flex items-center gap-3 mb-4 text-indigo-600 text-xl">
-              <i className="fas fa-file-alt"></i>
-              <h3 className="font-semibold text-lg">Paper Format</h3>
-            </div>
             <p className="text-gray-600 mb-3">
-              Papers must be submitted in IEEE 2-column standard format:
+              Authors should submit their papers online. We use Microsoft CMT
+              system for submission of papers and review process. Unregistered
+              authors should first create an account on Microsoft CMT to log on.
+              To avoid last minutes network problems, authors are strongly
+              encouraged to create their Microsoft CMT submission system user
+              accounts (if you do not already have one) and register their
+              submission well in advance of the deadline. <br /> <br />{" "}
+              <strong>
+                All submissions are to be done electronically through CMT link.
+              </strong>
             </p>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2 text-sm">
-              <li>Word (.doc) or PDF (.pdf) format only</li>
-              <li>Maximum 6 pages including references</li>
-              <li>Use provided IEEE template</li>
-              <li>Font: Times New Roman, 10pt</li>
-              <li>Double-column format with 0.25" column spacing</li>
-            </ul>
+          </div>
+        </div>
+      </section>
+      <section className="py-16 px-6 md:px-12 w-[100%] bg-white flex justify-center items-start">
+        <div className="w-[45%]">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-indigo-700">Paper Format</h2>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="p-6 bg-gray-50 rounded-2xl shadow-md hover:shadow-lg shadow-orange-600 transition ">
+              <p className="text-gray-600 mb-3">
+                Papers must be submitted in IEEE 2-column standard format:
+              </p>
+              <ul className="list-disc pl-6 text-gray-700 space-y-2 text-sm">
+                <li>Word (.doc) or PDF (.pdf) format only</li>
+                <li>Maximum 6 pages including references</li>
+                <li>Use provided IEEE template</li>
+                <li>Font: Times New Roman, 10pt</li>
+                <li>Double-column format with 0.25" column spacing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="w-[45%]">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-indigo-700">How To ?</h2>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="p-6 bg-gray-50 rounded-2xl shadow-md hover:shadow-lg shadow-orange-600 transition ">
+              <p className="text-gray-600 mb-3">
+                You will need to have a CMT account before you try to submit
+                your paper.
+              </p>
+              <div>
+                <div className="flex gap-2">
+                  <p>Link to create the account:</p>
+                  <a
+                    target="_blank"
+                    className="text-blue-600 underline"
+                    href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html"
+                  >
+                    Create CMT Account
+                  </a>
+                </div>
+                <div className="flex gap-2">
+                  <p>How to submit a paper :</p>
+                  <a
+                    target="_blank"
+                    className="text-blue-600 underline"
+                    href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
+                  >
+                    CMT Paper Submission Guide
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

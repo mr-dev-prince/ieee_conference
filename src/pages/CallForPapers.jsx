@@ -49,7 +49,7 @@ export default function CallForPapers() {
               <i className="fas fa-paper-plane" /> Submit Paper
             </a>
             <a
-              href="/guidelines"
+              href="/submission"
               className="bg-gray-600 hover:bg-gray-800 px-6 py-3 rounded-lg font-semibold flex items-center gap-2"
             >
               <i className="fas fa-info-circle" /> View Guidelines
@@ -120,16 +120,17 @@ export default function CallForPapers() {
           </div>
         </div>
       </section>
-      <section className="py-16 px-6 md:px-20 bg-gray-50 space-y-3">
+      <section id="schedule" className="py-16 px-6 md:px-20 bg-gray-50 space-y-3">
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Call For Papers Website URL{" "}
           </p>
           <a
+            target="_blank"
             href="https://cmt3.research.microsoft.com/ICBDML2026"
             className="text-blue-600 underline bg-gray-200 p-2 rounded-b-sm"
           >
-            https://cmt3.research.microsoft.com/ICBDML2026
+            Microsoft CMT portal
           </a>
         </div>
         <div className="max-w-5xl mx-auto text-left flex flex-col">
@@ -154,7 +155,7 @@ export default function CallForPapers() {
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Final Paper Submission Date
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">2026-06-15</p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">2025-12-20</p>
         </div>
       </section>
     </div>
