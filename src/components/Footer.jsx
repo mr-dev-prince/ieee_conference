@@ -34,7 +34,7 @@ const Footer = () => {
             <h3 className="font-bold mb-2">Contact Info</h3>
             <p className="text-sm">Bhopal, MP 462044</p>
             <p className="text-sm">+91-9893216819</p>
-            <p className="text-sm">dr.rajeshnema@iesbpl.ac.in</p>
+            <a className="text-sm" href="mailto:icbdml_2024@iesbpl.ac.in">icbdml_2024@iesbpl.ac.in</a>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 mt-6 text-sm text-gray-400">

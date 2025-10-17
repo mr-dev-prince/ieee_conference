@@ -2,7 +2,7 @@ import ss from "../assets/sunita_singh.jpg";
 import gt from "../assets/gstomar.jpg";
 
 const committeeData = {
-  chiefPatron: [
+  patron: [
     {
       name: "Dr. Sunita Singh",
       title: "Group Director",
@@ -10,8 +10,6 @@ const committeeData = {
       initials: "DS",
       image: ss,
     },
-  ],
-  patron: [
     {
       name: "Dr. G.S. Tomar",
       title: "Chairperson",
@@ -81,10 +79,6 @@ export default function Committee() {
           leaders ensuring the highest standards of quality and innovation.
         </p>
       </section>
-      <CommitteeSection
-        title="Chief Patron"
-        members={committeeData.chiefPatron}
-      />
       <CommitteeSection title="Patron" members={committeeData.patron} />
       <CommitteeSection
         title="General Chairs / Conference Chairs"

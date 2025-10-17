@@ -1,4 +1,6 @@
 import React from "react";
+import ss from "../assets/sunita_singh.jpg";
+import gt from "../assets/gstomar.jpg";
 
 export default function CommitteePage() {
   return (
@@ -30,31 +32,28 @@ export default function CommitteePage() {
       <section className="py-16 px-6 md:px-12 bg-gray-50 text-gray-800">
         <div className="mb-12">
           <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
-            Chief Patron
-          </h3>
-          <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold">
-              DS
-            </div>
-            <div>
-              <div className="font-semibold">Dr. Sunita Singh</div>
-              <div className="text-sm">Group Director</div>
-              <div className="text-sm text-gray-600">ICOT, Bhopal</div>
-            </div>
-          </div>
-        </div>
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
             Patron
           </h3>
-          <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold">
-              SG
+          <div className="space-y-2">
+            <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+                <img src={ss} alt="avatar" />
+              </div>
+              <div>
+                <div className="font-semibold">Dr. Sunita Singh</div>
+                <div className="text-sm">Group Director</div>
+                <div className="text-sm text-gray-600">ICOT, Bhopal</div>
+              </div>
             </div>
-            <div>
-              <div className="font-semibold">Dr. G.S. Tomar</div>
-              <div className="text-sm">Chairperson</div>
-              <div className="text-sm text-gray-600">IEEE, M.P. Section</div>
+            <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-indigo-600 text-white flex items-center justify-center overflow-hidden font-bold">
+                <img src={gt} alt="avatar" />
+              </div>
+              <div>
+                <div className="font-semibold">Dr. G.S. Tomar</div>
+                <div className="text-sm">Chairperson</div>
+                <div className="text-sm text-gray-600">IEEE, M.P. Section</div>
+              </div>
             </div>
           </div>
         </div>
