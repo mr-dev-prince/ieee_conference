@@ -12,7 +12,7 @@ import {
 const events = [
   {
     title: "Paper Submission Opens",
-    date: "July 15, 2025",
+    date: "September 10, 2025",
     description:
       "Call for papers announced. Researchers can start submitting their original work across all conference tracks including AI, Machine Learning, and Big Data Analytics.",
     icon: FaRocket,
@@ -20,7 +20,7 @@ const events = [
   },
   {
     title: "Full Paper Submission Deadline",
-    date: "December 10, 2025",
+    date: "December 27, 2025",
     description:
       "Final deadline for full-length paper submissions. All papers must be original, unpublished work following IEEE format guidelines.",
     icon: FaClock,
@@ -29,7 +29,7 @@ const events = [
   },
   {
     title: "Acceptance Notification",
-    date: "November 15, 2025",
+    date: "December 15, 2025",
     description:
       "Authors will be notified about the acceptance status of their submissions via email. Detailed reviewer feedback will be provided for all submissions.",
     icon: FaCheckCircle,
@@ -37,7 +37,7 @@ const events = [
   },
   {
     title: "Camera Ready Submission",
-    date: "December 24, 2025",
+    date: "January 10, 2026",
     description:
       "Final version of accepted papers must be submitted incorporating reviewer comments. Papers will be submitted to IEEE Xplore for publication.",
     icon: FaFileUpload,
@@ -45,7 +45,7 @@ const events = [
   },
   {
     title: "Early Registration Period",
-    date: "January 1–10, 2026",
+    date: "February 1 – February 10, 2026",
     description:
       "Early bird registration period with special discounted rates for students, IEEE members, and international participants. Secure your spot today!",
     icon: FaUserPlus,
@@ -53,7 +53,7 @@ const events = [
   },
   {
     title: "Conference Days",
-    date: "January 23–24, 2026",
+    date: "February 27–28, 2026",
     description:
       "Two-day international conference featuring keynote speeches, technical paper presentations, panel discussions, and networking sessions with industry leaders and researchers.",
     icon: FaCalendarAlt,
