@@ -79,7 +79,6 @@ export default function Home() {
       </section>
       <Committee />
       <ImpDates />
-      {/* <CMTAck /> */}
     </div>
   );
 }
@@ -93,33 +92,5 @@ function InfoCard({ icon, title, content }) {
       <h3 className="font-semibold text-lg mb-2">{title}</h3>
       <p className="text-sm text-gray-600">{content}</p>
     </div>
-  );
-}
-
-function TimelineItem({ icon, title, date, status }) {
-  return (
-    <div className="flex items-start gap-4">
-      <div className="text-blue-600 text-2xl">{icon}</div>
-      <div>
-        <div className="flex items-center gap-2">
-          <h3 className="font-semibold">{title}</h3>
-          <span className="px-2 py-1 text-xs bg-blue-100 text-blue-600 rounded">
-            {status}
-          </span>
-        </div>
-        <p className="text-sm text-gray-500">{date}</p>
-      </div>
-    </div>
-  );
-}
-
-export function CMTAck() {
-  return (
-    <>
-      The Microsoft CMT service was used for managing the peer-reviewing process
-      for this conference. This service was provided for free by Microsoft and
-      they bore all expenses, including costs for Azure cloud services as well
-      as for software development and support.
-    </>
   );
 }

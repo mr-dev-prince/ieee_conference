@@ -83,19 +83,16 @@ export default function ImpDates() {
       </div>
 
       <div className="relative">
-        {/* Central vertical line */}
         <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-200 -translate-x-1/2"></div>
-
         <ol className="space-y-12">
           {events.map((e, idx) => {
             const Icon = e.icon;
-            const isLeft = idx % 2 === 0; // alternate
+            const isLeft = idx % 2 === 0;
             return (
               <li
                 key={idx}
                 className="relative flex justify-between items-center w-full"
               >
-                {/* Left side */}
                 <div className={`w-5/12 ${isLeft ? "text-right" : ""}`}>
                   {isLeft && (
                     <div className="bg-white border border-gray-200 rounded-xl shadow p-4 md:p-5">
@@ -123,7 +120,6 @@ export default function ImpDates() {
                   )}
                 </div>
 
-                {/* Center Icon */}
                 <div
                   className={`z-10 flex items-center justify-center w-10 h-10 rounded-full ring-8 ring-white text-white ${statusClasses(
                     e.extraNotice ? "Extended" : e.status
@@ -132,7 +128,6 @@ export default function ImpDates() {
                   <Icon className="w-5 h-5" />
                 </div>
 
-                {/* Right side */}
                 <div className={`w-5/12 ${!isLeft ? "text-left" : ""}`}>
                   {!isLeft && (
                     <div className="bg-white border border-gray-200 rounded-xl shadow p-4 md:p-5">

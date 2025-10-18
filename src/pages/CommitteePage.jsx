@@ -64,6 +64,10 @@ export default function CommitteePage() {
               name: "Dr. Anuprita Mishra",
               affiliation: "Principal, IES College of Technology",
             },
+            {
+              name: "Prof. Dr. Nikhat Raza Khan",
+              affiliation: "SMIEEE, Bhopal",
+            },
           ]}
         />
         <CommitteeTable

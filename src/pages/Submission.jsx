@@ -1,5 +1,3 @@
-import { CMTAck } from "./Home";
-
 export default function Submission() {
   return (
     <div>
@@ -158,7 +156,6 @@ export default function Submission() {
           </div>
         </div>
       </section>
-      <CMTAck />
     </div>
   );
 }
