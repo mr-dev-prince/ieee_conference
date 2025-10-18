@@ -79,11 +79,11 @@ export default function Home() {
       </section>
       <Committee />
       <ImpDates />
+      <CMTAck />
     </div>
   );
 }
 
-/* Reusable Info Card Component */
 function InfoCard({ icon, title, content }) {
   return (
     <div className="bg-white shadow rounded-xl p-6 text-center hover:shadow-lg transition">
@@ -96,7 +96,6 @@ function InfoCard({ icon, title, content }) {
   );
 }
 
-/* Reusable Timeline Item */
 function TimelineItem({ icon, title, date, status }) {
   return (
     <div className="flex items-start gap-4">
@@ -110,6 +109,20 @@ function TimelineItem({ icon, title, date, status }) {
         </div>
         <p className="text-sm text-gray-500">{date}</p>
       </div>
+    </div>
+  );
+}
+
+function CMTAck() {
+  return (
+    <div className="mt-4 mx-10 px-10 py-2 space-y-2 rounded-xl bg-gray-400/50">
+      <h1 className="text-xl font-semibold text-blue-900">CMT ACKNOWLEDGEMENT</h1>
+      <p>
+        The Microsoft CMT service was used for managing the peer-reviewing
+        process for this conference. This service was provided for free by
+        Microsoft and they bore all expenses, including costs for Azure cloud
+        services as well as for software development and support.
+      </p>
     </div>
   );
 }
