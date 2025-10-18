@@ -113,11 +113,10 @@ function TimelineItem({ icon, title, date, status }) {
   );
 }
 
-function CMTAck() {
+export function CMTAck() {
   return (
-    <div className="mt-4 mx-10 px-10 py-2 space-y-2 rounded-xl bg-gray-400/50">
-      <h1 className="text-xl font-semibold text-blue-900">CMT ACKNOWLEDGEMENT</h1>
-      <p>
+    <div className="px-24">
+      <p className="text-xl">
         The Microsoft CMT service was used for managing the peer-reviewing
         process for this conference. This service was provided for free by
         Microsoft and they bore all expenses, including costs for Azure cloud
