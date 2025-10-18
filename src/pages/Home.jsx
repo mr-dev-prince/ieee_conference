@@ -79,7 +79,7 @@ export default function Home() {
       </section>
       <Committee />
       <ImpDates />
-      <CMTAck />
+      {/* <CMTAck /> */}
     </div>
   );
 }
@@ -115,13 +115,11 @@ function TimelineItem({ icon, title, date, status }) {
 
 export function CMTAck() {
   return (
-    <div className="px-24">
-      <p className="text-xl">
-        The Microsoft CMT service was used for managing the peer-reviewing
-        process for this conference. This service was provided for free by
-        Microsoft and they bore all expenses, including costs for Azure cloud
-        services as well as for software development and support.
-      </p>
-    </div>
+    <>
+      The Microsoft CMT service was used for managing the peer-reviewing process
+      for this conference. This service was provided for free by Microsoft and
+      they bore all expenses, including costs for Azure cloud services as well
+      as for software development and support.
+    </>
   );
 }
