@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
       <div className="relative z-10 px-6">
         <div className="flex justify-center items-center gap-2 text-lg mb-4">
-          <FaCalendarAlt /> January 23-24, 2026 • Bhopal, India
+          <FaCalendarAlt /> 27th - 28th, 2026 • Bhopal, India
         </div>
         <div className="animate-pulse">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-snug glitch">

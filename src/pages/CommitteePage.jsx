@@ -122,11 +122,11 @@ export default function CommitteePage() {
           title="Publicity Committee Chairs"
           members={[
             {
-              name: "Dr. Jitendra Agarwal",
-              affiliation: "Director, SOIT, RGPV, Bhopal",
+              name: "Prof Anubhav Sharma [ CSE ]",
+              affiliation: "IES College of Technology, Bhopal",
             },
             {
-              name: "Dr. Anubhav Sharma",
+              name: "Dr. Parmalik [ HOD - CSE ]",
               affiliation: "IES College of Technology, Bhopal",
             },
           ]}
@@ -139,8 +139,187 @@ export default function CommitteePage() {
               affiliation: "Treasurer, IEEE MP Subsection",
             },
             {
-              name: "Dr. Shweta Singh",
+              name: "Dr. Gurjeet Singh",
               affiliation: "IES College of Technology, Bhopal",
+            },
+          ]}
+        />
+        <CommitteeTable
+          title="International Advisory Board"
+          members={[
+            {
+              name: "Dr. Mudiyanselage Sandun Yasantha Konara",
+              affiliation:
+                "Department of Electrical & Information Engineering, Faculty of Engineering, University of Ruhuna, Hapugala, Galle, Sri Lanka",
+            },
+            {
+              name: "Prof. Alfredo Vaccaro",
+              affiliation:
+                "Department of Engineering, University of Sannio, Benevento, Italy",
+            },
+            {
+              name: "Dr. (Prof) M. L. Kolhe",
+              affiliation: "University of Agder, Norway",
+            },
+            {
+              name: "Dr. Nguyen Ha Huy Cuong",
+              affiliation:
+                "Deputy Director, Software Development Centre, The University of Danang",
+            },
+            {
+              name: "Dr. Stefanie Mueller",
+              affiliation: "Associate Professor, Computer Science and EE",
+            },
+            {
+              name: "Dr. Andrea Goldsmith",
+              affiliation:
+                "Professor of Electrical and Computer Engineering, Princeton University",
+            },
+            {
+              name: "Dr. Andreas Molisch",
+              affiliation:
+                "Professor, Department of Electrical and Computer Engineering System",
+            },
+            {
+              name: "Prof. Milan Tuba",
+              affiliation:
+                "Vice Rector, Singidunum University, Belgrade, Serbia",
+            },
+            {
+              name: "Dr. R.P.S. Chandrasena",
+              affiliation:
+                "Department of Electrical and Information Engineering, University of Ruhuna, Sri Lanka",
+            },
+            {
+              name: "Dr. Pastor Arguelles",
+              affiliation:
+                "Dean, College of Computer Studies, Calabarzon, Philippines",
+            },
+            {
+              name: "Dr. Muthmainnah",
+              affiliation:
+                "Assistant Professor, Universitas Al Asyariah Mandar, West Sulawesi, Indonesia",
+            },
+            {
+              name: "Dr. Ahmed J. Obaid",
+              affiliation:
+                "Assistant Professor, Faculty of Computer Science and Mathematics, KUFA University",
+            },
+            {
+              name: "Prof. Mike Hinchey",
+              affiliation: "University of Limerick, Ireland & President, IFIP",
+            },
+            {
+              name: "Prof. Vincenzo Piuri",
+              affiliation: "University of Milan, Italy",
+            },
+            {
+              name: "Mr. Aninda Bose",
+              affiliation: "Senior Editor, Springer Nature, UK",
+            },
+            {
+              name: "Prof. João Manuel R S Tavares",
+              affiliation:
+                "Faculdade de Engenharia da Universidade do Porto, Portugal",
+            },
+            {
+              name: "Prof. Rosalina Babo",
+              affiliation: "Polytechnic Institute of Porto, Portugal",
+            },
+            {
+              name: "Prof. Zdzislaw Polkowski",
+              affiliation: "Jan Wyzykowski University, Poland",
+            },
+          ]}
+        />
+        <CommitteeTable
+          title="Local Advisory Board"
+          members={[
+            {
+              name: "Dr. Valentina E. Balas",
+              affiliation:
+                "Professor of Automation and Applied Informatics, Aurel Vlaicu University of Arad, Romania",
+            },
+            {
+              name: "Dr. Pastor Arguelles",
+              affiliation:
+                "Dean, College of Computer Studies, Calabarzon, Philippines",
+            },
+            {
+              name: "Dr. Muthmainnah",
+              affiliation:
+                "Assistant Professor, Universitas Al Asyariah Mandar, West Sulawesi, Indonesia",
+            },
+            {
+              name: "Dr. Mayank Shrivastava",
+              affiliation:
+                "Associate Professor, Department of Electronic Systems Engineering, Indian Institute of Science, Bangalore",
+            },
+            {
+              name: "Prof. Vivek Shrivastava",
+              affiliation:
+                "Professor & Dean, Srinagar, Distt-Pauri Garhwal, Uttarakhand",
+            },
+            {
+              name: "Dr. N.K. Yadav",
+              affiliation:
+                "Research Scientist, Illinois Institute of Technology, Chicago",
+            },
+            {
+              name: "Dr. Ahmed J. Obaid",
+              affiliation:
+                "Assistant Professor, Computer Science and Mathematics, KUFA University",
+            },
+            {
+              name: "Prof. Arun Sharma",
+              affiliation:
+                "Professor, Department of Information Technology, Indira Gandhi Delhi Technical University, Delhi",
+            },
+            {
+              name: "Dr. Anupam Sharma",
+              affiliation: "Scientist 'H', DSP, DRDO Hyderabad",
+            },
+            {
+              name: "Dr. Samyal Das Mandal",
+              affiliation: "Assistant Professor, IIT Kharagpur",
+            },
+            {
+              name: "Mr. Ashish Kumar Gupta",
+              affiliation: "Scientist 'F', DRDL, DRDO Hyderabad",
+            },
+            {
+              name: "Mrs. Suman Agrawal",
+              affiliation: "Scientist 'F', DRDO Hyderabad",
+            },
+            {
+              name: "Dr. Dilip Singh Sisodia",
+              affiliation:
+                "Professor & HoD, Department of Computer Science & Engineering, National Institute of Technology Raipur",
+            },
+            {
+              name: "Dr. Abhishek Rawat",
+              affiliation:
+                "Assistant Professor, Electrical and Computer Science Engineering, IIIT RAM Ahmedabad",
+            },
+            {
+              name: "Dr. Pramod Singhal",
+              affiliation: "Chairman, IETE Chapter Bhopal",
+            },
+            {
+              name: "Dr. Maya Ingle",
+              affiliation: "Professor, DAVV Indore",
+            },
+            {
+              name: "Dr. Jitendra Agarwal",
+              affiliation: "Associate Professor, RGPV Bhopal",
+            },
+            {
+              name: "Prof. Manish Dixit",
+              affiliation: "Vice Chair, IEEE MP Section",
+            },
+            {
+              name: "Dr. Amit Ojha",
+              affiliation: "Secretary, IEEE MP Section",
             },
           ]}
         />

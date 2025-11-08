@@ -20,7 +20,7 @@ const committeeData = {
   ],
   generalChairs: [
     {
-      name: "Dr. Anuprita Mishra",
+      name: "Prof. Dr. Anuprita Mishra",
       title: "General Chair",
       affiliation: "Principal, IES College of Technology",
     },

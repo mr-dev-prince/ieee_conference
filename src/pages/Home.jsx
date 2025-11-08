@@ -16,29 +16,55 @@ export default function Home() {
     <div className="font-sans text-gray-800">
       <Hero />
       <section id="about" className="max-w-7xl mx-auto py-16 px-6">
-        <h2 className="text-3xl font-bold text-center mb-10">
-          Conference Overview
-        </h2>
-        <p className="text-lg leading-7 mb-12 text-justify shadow-sm shadow-black/50 p-3 rounded-xl">
-          ICBDML-2026 aims to provide an opportunistic forum and vibrant
-          platform for researchers and industry practitioners to build business
-          or research relationships, find global partners for future
-          collaboration on emerging issues, and share state-of-the-art knowledge
-          gained from their original research work and practical developments on
-          specific new challenges, applications, and experiences. <br />
-          <br />
-          The conference's "Expert Application" theme will focus on the most
-          recent advancements in research and the application of expert systems,
-          with a particular focus on the part that these advancements play in
-          upholding academic standards while disseminating cutting-edge
-          discoveries in the fields of computer system security using
-          cryptographic algorithms and other security schemes for system as well
-          as for cloud. <br />
-          <br />
-          We are seeking for unique entries that have never been published and
-          aren't currently being considered by any other journals or
-          conferences.
-        </p>
+        <div>
+          <h2 className="text-3xl font-bold text-center mb-10">
+            About Organization
+          </h2>
+          <p className="text-lg leading-7 mb-12 text-justify shadow-sm shadow-black/50 p-3 rounded-xl">
+            <strong>IES College of Technology, Bhopal</strong> promoted by
+            Infotech Education Society is working towards excellence i n
+            education and fulfilling the needs of highly demanding professionals
+            since 1999, in the pursuit of serving the society through imparting
+            education. Renowned Educationists, Philanthropists, Engineers and
+            Technical Professionals constitute Infotech Education Society.
+            <br /> <br />
+            The IES College of Technology Bhopal, one of the{" "}
+            <strong>most reputed engineering colleges in Madhya Pradesh</strong>
+            , India, affiliated to RGPV and NBA accredited, was started in the
+            year 2007-08, to provide technical education. The IES University is
+            managing <strong>AICTE / NAAC approved institutions</strong> in the
+            field of Engineering and Technology, Management and Teachers
+            Education Programs. <br /> <br /> The College campus is beautifully
+            planned in <strong>55 acres</strong> with pleasant landscaping
+            presenting conducive environment for sincere and perfect learning.
+          </p>
+        </div>
+        <div>
+          <h2 className="text-3xl font-bold text-center mb-10">
+            Conference Overview
+          </h2>
+          <p className="text-lg leading-7 mb-12 text-justify shadow-sm shadow-black/50 p-3 rounded-xl">
+            ICBDML-2026 aims to provide an opportunistic forum and vibrant
+            platform for researchers and industry practitioners to build
+            business or research relationships, find global partners for future
+            collaboration on emerging issues, and share state-of-the-art
+            knowledge gained from their original research work and practical
+            developments on specific new challenges, applications, and
+            experiences. <br />
+            <br />
+            The conference's "Expert Application" theme will focus on the most
+            recent advancements in research and the application of expert
+            systems, with a particular focus on the part that these advancements
+            play in upholding academic standards while disseminating
+            cutting-edge discoveries in the fields of computer system security
+            using cryptographic algorithms and other security schemes for system
+            as well as for cloud. <br />
+            <br />
+            We are seeking for unique entries that have never been published and
+            aren't currently being considered by any other journals or
+            conferences.
+          </p>
+        </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <InfoCard
             icon={<FaBrain />}
