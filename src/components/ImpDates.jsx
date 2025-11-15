@@ -77,7 +77,7 @@ export default function ImpDates() {
       <div className="text-center mb-12 border-b border-dashed">
         <h2 className="text-4xl font-bold mb-8">Important Dates</h2>
         <p className="text-gray-600 mt-2">
-          Stay updated with all the key milestones for ICBDML 2025. Mark your
+          Stay updated with all the key milestones for ICBDML 2026. Mark your
           calendar and don't miss any crucial deadlines!
         </p>
       </div>

@@ -130,7 +130,7 @@ export default function Submission() {
                 You will need to have a CMT account before you try to submit
                 your paper.
               </p>
-              <div>
+              <div className="space-y-3">
                 <div className="flex gap-2">
                   <p>Link to create the account:</p>
                   <a
@@ -149,6 +149,16 @@ export default function Submission() {
                     href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
                   >
                     CMT Paper Submission Guide
+                  </a>
+                </div>
+                <div className="flex gap-2">
+                  <p>Paper Submission Link :</p>
+                  <a
+                    target="_blank"
+                    className="text-blue-600 underline"
+                    href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICBDML2026"
+                  >
+                    CMT Paper Submission Link
                   </a>
                 </div>
               </div>
