@@ -40,11 +40,14 @@ export default function Hero() {
         <div className="flex justify-center items-center gap-2 text-lg mb-4">
           <FaCalendarAlt /> 27th - 28th, 2026 • Bhopal, India
         </div>
-        <div className="animate-pulse">
+        <div className="animate-pulse flex flex-col justify-center items-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-snug glitch">
             2<sup>ND</sup> IEEE INTERNATIONAL CONFERENCE <br /> ON BIG DATA &
             MACHINE LEARNING
           </h1>
+          <div className="p-2 border-3 w-fit px-4 rounded-full border-green-500 bg-green-600/40">
+            <h1>Conference In Hybrid Mode : Both Online & Offline</h1>
+          </div>
           <p className="mt-4 max-w-3xl mx-auto text-lg">
             Join the world's leading experts in Big Data and Machine Learning at
             IES College of Technology, Bhopal.

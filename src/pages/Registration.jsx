@@ -1,4 +1,5 @@
 import { Calendar, CreditCard, FileText, Info } from "lucide-react";
+import RegistrationFee from "../components/RegistrationFee";
 
 export default function Registration() {
   return (
@@ -69,6 +70,9 @@ export default function Registration() {
             early bird pricing!
           </p>
         </div>
+      </div>
+      <div className="px-24">
+        <RegistrationFee />
       </div>
       <section className="max-w-6xl mx-auto px-6 py-12 hidden">
         <h2 className="text-2xl font-bold text-center mb-8">
