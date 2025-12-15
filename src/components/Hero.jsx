@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaCalendarAlt, FaTicketAlt, FaInfoCircle } from "react-icons/fa";
+import ieee from "../assets/ieee.png";
 
 const images = [
   "https://iesbpl.ac.in/uploads/slider/icot.jpg",
@@ -19,11 +20,26 @@ export default function Hero() {
   }, []);
 
   return (
-    <section
-      id="home"
-      className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden"
-    >
-      <div className="absolute inset-0">
+    <section id="home" className="w-full text-white pt-16">
+      <div className="w-full h-[30vh]">
+        <img
+          src={ieee}
+          alt="IEEE"
+          className="w-full h-full object-contain bg-white"
+        />
+      </div>
+      <div className="relative overflow-hidden mb-2 h-[3vh] bg-white w-full">
+        <p
+          className="whitespace-nowrap text-black font-semibold
+         animate-marquee"
+        >
+          👉 IEEE Conference | Madhya Pradesh Section | 2026 {" • "}
+          <span className="text-red-600">
+            Schedules Released | Check Schedule Section
+          </span>
+        </p>
+      </div>
+      <div className="relative h-screen flex items-center justify-center text-center">
         {images.map((src, idx) => (
           <img
             key={idx}
@@ -34,38 +50,43 @@ export default function Hero() {
             }`}
           />
         ))}
-        <div className="absolute inset-0 bg-black/60"></div>
-      </div>
-      <div className="relative z-10 px-6">
-        <div className="flex justify-center items-center gap-2 text-lg mb-4">
-          <FaCalendarAlt /> 27th - 28th, 2026 • Bhopal, India
-        </div>
-        <div className="animate-pulse flex flex-col justify-center items-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-snug glitch">
-            2<sup>ND</sup> IEEE INTERNATIONAL CONFERENCE <br /> ON BIG DATA &
-            MACHINE LEARNING
-          </h1>
-          <div className="p-2 border-3 w-fit px-4 rounded-full border-green-500 bg-green-600/40">
-            <h1>Conference In Hybrid Mode : Both Online & Offline</h1>
+        <div className="absolute inset-0 bg-black/60" />
+
+        {/* Content */}
+        <div className="relative z-10 px-6 max-w-5xl">
+          <div className="flex justify-center items-center gap-2 text-lg mb-4">
+            <FaCalendarAlt />
+            27th - 28th FEB, 2026 • Bhopal, India
           </div>
-          <p className="mt-4 max-w-3xl mx-auto text-lg">
+
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-snug">
+            2<sup>ND</sup> IEEE INTERNATIONAL CONFERENCE <br />
+            ON BIG DATA & MACHINE LEARNING
+          </h1>
+
+          <div className="mt-4 inline-block px-4 py-2 rounded-full border border-green-400 bg-green-600/40">
+            Conference in Hybrid Mode: Online & Offline
+          </div>
+
+          <p className="mt-4 text-lg max-w-3xl mx-auto">
             Join the world's leading experts in Big Data and Machine Learning at
             IES College of Technology, Bhopal.
           </p>
-        </div>
-        <div className="mt-6 flex gap-4 justify-center">
-          <a
-            href="#register"
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center gap-2 text-white font-semibold"
-          >
-            <FaTicketAlt /> Register Now
-          </a>
-          <a
-            href="#about"
-            className="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-lg flex items-center gap-2 text-white font-semibold"
-          >
-            <FaInfoCircle /> Learn More
-          </a>
+
+          <div className="mt-6 flex gap-4 justify-center flex-wrap">
+            <a
+              href="#register"
+              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center gap-2 font-semibold"
+            >
+              <FaTicketAlt /> Register Now
+            </a>
+            <a
+              href="#about"
+              className="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-lg flex items-center gap-2 font-semibold"
+            >
+              <FaInfoCircle /> Learn More
+            </a>
+          </div>
         </div>
       </div>
     </section>
