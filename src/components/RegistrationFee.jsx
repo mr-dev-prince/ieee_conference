@@ -32,17 +32,17 @@ export default function RegistrationFee() {
         <tbody>
           <tr>
             <td className="border p-3 font-semibold">Non-IEEE Members</td>
-            <td className="border p-3">Rs 6000</td>
-            <td className="border p-3">Rs 4000</td>
             <td className="border p-3">Rs 7000</td>
-            <td className="border p-3">Rs 4500</td>
+            <td className="border p-3">Rs 5000</td>
+            <td className="border p-3">Rs 8000</td>
+            <td className="border p-3">Rs 5500</td>
           </tr>
           <tr>
             <td className="border p-3 font-semibold">IEEE Members</td>
-            <td className="border p-3">Rs 5000</td>
-            <td className="border p-3">Rs 3000</td>
             <td className="border p-3">Rs 6000</td>
             <td className="border p-3">Rs 4000</td>
+            <td className="border p-3">Rs 7000</td>
+            <td className="border p-3">Rs 5000</td>
           </tr>
           <tr>
             <td className="border p-3 font-semibold">

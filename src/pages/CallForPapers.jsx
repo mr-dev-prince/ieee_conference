@@ -87,9 +87,9 @@ export default function CallForPapers() {
               Dates
             </h3>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Submission Deadline: 30th Nov 2025</li>
-              <li>Notification of Acceptance: 15th Dec 2025</li>
-              <li>Camera Ready Submission: 10th Jan 2026</li>
+              <li>Submission Deadline: 10th Jan 2026</li>
+              <li>Notification of Acceptance: 15th Jan 2026</li>
+              <li>Camera Ready Submission: 30th Jan 2026</li>
               <li>Conference Date: 27th - 28th Feb 2026</li>
             </ul>
           </div>

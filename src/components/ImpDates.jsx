@@ -20,7 +20,7 @@ const events = [
   },
   {
     title: "Full Paper Submission Deadline",
-    date: "December 27, 2025",
+    date: "January 25 2026",
     description:
       "Final deadline for full-length paper submissions. All papers must be original, unpublished work following IEEE format guidelines.",
     icon: FaClock,
@@ -29,7 +29,7 @@ const events = [
   },
   {
     title: "Acceptance Notification",
-    date: "December 15, 2025",
+    date: "January 15, 2026",
     description:
       "Authors will be notified about the acceptance status of their submissions via email. Detailed reviewer feedback will be provided for all submissions.",
     icon: FaCheckCircle,
@@ -37,7 +37,7 @@ const events = [
   },
   {
     title: "Camera Ready Submission",
-    date: "January 10, 2026",
+    date: "January 30, 2026",
     description:
       "Final version of accepted papers must be submitted incorporating reviewer comments. Papers will be submitted to IEEE Xplore for publication.",
     icon: FaFileUpload,
@@ -53,7 +53,7 @@ const events = [
   },
   {
     title: "Conference Days",
-    date: "February 27–28, 2026",
+    date: "February 27 – 28, 2026",
     description:
       "Two-day international conference featuring keynote speeches, technical paper presentations, panel discussions, and networking sessions with industry leaders and researchers.",
     icon: FaCalendarAlt,
