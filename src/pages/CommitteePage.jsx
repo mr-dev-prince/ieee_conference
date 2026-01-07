@@ -1,6 +1,10 @@
 import React from "react";
 import ss from "../assets/sunita_singh.jpg";
 import gt from "../assets/gstomar.jpg";
+import an from "../assets/Aravind_Narayanan.jpeg";
+import aa from "../assets/ashutosh_agarwal.jpeg";
+import svc from "../assets/Sai_Vamsi_Chennupati.jpeg";
+import sy from "../assets/Sasikanth_Yangalasetty.jpeg";
 
 export default function CommitteePage() {
   return (
@@ -34,9 +38,9 @@ export default function CommitteePage() {
           <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
             Patron
           </h3>
-          <div className="space-y-2">
-            <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+          <div className="flex justify-center items-center bg-white shadow-2xl p-4 gap-8 rounded-2xl">
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500 ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
                 <img src={ss} alt="avatar" />
               </div>
               <div>
@@ -45,14 +49,74 @@ export default function CommitteePage() {
                 <div className="text-sm text-gray-600">ICOT, Bhopal</div>
               </div>
             </div>
-            <div className="p-4 bg-white rounded-xl shadow-md flex items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-indigo-600 text-white flex items-center justify-center overflow-hidden font-bold">
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
                 <img src={gt} alt="avatar" />
               </div>
               <div>
                 <div className="font-semibold">Dr. G.S. Tomar</div>
                 <div className="text-sm">Chairperson</div>
                 <div className="text-sm text-gray-600">IEEE, M.P. Section</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-12">
+          <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
+            Keynote Speakers
+          </h3>
+          <div className="flex flex-wrap justify-center items-center bg-white shadow-2xl p-4 gap-8 rounded-2xl">
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500 ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+                <img src={aa} alt="avatar" className="object-contain" />
+              </div>
+              <div>
+                <div className="font-semibold">Ashutosh Agarwal</div>
+                <div className="text-sm">Keynote Speaker</div>
+                <p className="text-sm text-gray-600 max-w-64">
+                  School of Business, Stevens Institute of Technology, Hoboken,
+                  USA
+                </p>
+                <p className="text-sm">Email: ashutoshagarwal198@gmail.com</p>
+              </div>
+            </div>
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+                <img src={an} alt="avatar" />
+              </div>
+              <div>
+                <div className="font-semibold">Aravind Narayanan</div>
+                <div className="text-sm">Keynote Speaker</div>
+                <p className="text-sm text-gray-600 max-w-64">
+                  InsurTech Leader (Fitchburg State University, VM Inc.)
+                </p>
+                <p className="text-sm">Email: anarayanan.pmp@gmail.com</p>
+              </div>
+            </div>
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+                <img src={svc} alt="avatar" />
+              </div>
+              <div>
+                <div className="font-semibold">Sai Vamsi Chennupati</div>
+                <div className="text-sm">Keynote Speaker</div>
+                <p className="text-sm text-gray-600 max-w-64">
+                  Senior Software Engineer - Western Union (2023-Present)
+                </p>
+                <p className="text-sm">Email: vamsi.change20@gmail.com</p>
+              </div>
+            </div>
+            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
+              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
+                <img src={sy} alt="avatar" />
+              </div>
+              <div>
+                <div className="font-semibold">Sasikanth Yangalasetty</div>
+                <div className="text-sm">Keynote Speaker</div>
+                <p className="text-sm text-gray-600 max-w-64">
+                  Product Manager – McKesson (Healthcare & Enterprise Software)
+                </p>
+                <p className="text-sm">Email: yskanth19@gmail.com</p>
               </div>
             </div>
           </div>
@@ -229,6 +293,14 @@ export default function CommitteePage() {
             {
               name: "Prof. Zdzislaw Polkowski",
               affiliation: "Jan Wyzykowski University, Poland",
+            },
+            {
+              name: "Hardik Patel",
+              affiliation: "Independent Researcher, USA",
+            },
+            {
+              name: "Riaz Ahmed Mohammed Sait",
+              affiliation: "Oracle Corporation, USA",
             },
           ]}
         />
