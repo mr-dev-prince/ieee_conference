@@ -1,125 +1,154 @@
-import React from "react";
 import ss from "../assets/sunita_singh.jpg";
 import gt from "../assets/gstomar.jpg";
 import an from "../assets/Aravind_Narayanan.jpeg";
 import aa from "../assets/ashutosh_agarwal.jpeg";
 import svc from "../assets/Sai_Vamsi_Chennupati.jpeg";
 import sy from "../assets/Sasikanth_Yangalasetty.jpeg";
+import rg from "../assets/Raghu-Gollapudi.jpg";
+import srg from "../assets/Sasidhar-Reddy-Gaddam.jpeg";
+
+const patrons = [
+  {
+    name: "Dr. Sunita Singh",
+    role: "Group Director",
+    org: "ICOT, Bhopal",
+    img: ss,
+  },
+  {
+    name: "Dr. G.S. Tomar",
+    role: "Chairperson",
+    org: "IEEE, M.P. Section",
+    img: gt,
+  },
+];
+
+const keynoteSpeakers = [
+  {
+    name: "Ashutosh Agarwal",
+    role: "Keynote Speaker",
+    desc: "Senior Business Analyst - CBRE | Turner and Townsend (USA)",
+    email: "ashutoshagarwal198@gmail.com",
+    img: aa,
+  },
+  {
+    name: "Aravind Narayanan",
+    role: "Keynote Speaker",
+    desc: "InsurTech Leader (Fitchburg State University, VM Inc.)",
+    email: "anarayanan.pmp@gmail.com",
+    img: an,
+  },
+  {
+    name: "Raghu Gollapudi",
+    role: "Keynote Speaker",
+    desc: "Company - Fiserv",
+    email: "Reacheaghu251@gmail.com",
+    img: rg,
+  },
+  {
+    name: "Sasidhar Reddy Gaddam",
+    role: "Keynote Speaker",
+    desc: "Staff Software Engineer, AI & Cybersecurity Specialist, IEEE Senior Member",
+    email: "zeesasidhar@gmail.com",
+    img: srg,
+  },
+  {
+    name: "Sai Vamsi Chennupati",
+    role: "Keynote Speaker",
+    desc: "Senior Software Engineer - Western Union",
+    email: "vamsi.change20@gmail.com",
+    img: svc,
+  },
+  {
+    name: "Sasikanth Yangalasetty",
+    role: "Keynote Speaker",
+    desc: "Product Manager – McKesson",
+    email: "yskanth19@gmail.com",
+    img: sy,
+  },
+];
+
+const SectionTitle = ({ title }) => (
+  <h3 className="text-2xl font-semibold mb-6 text-indigo-700">{title}</h3>
+);
+
+const PersonCard = ({ person }) => (
+  <div className="p-8 bg-white rounded-xl shadow-md flex flex-col lg:flex-row items-center gap-8 hover:shadow-2xl hover:-translate-y-1 transition">
+    <div className="w-32 h-32 border-2 border-blue-500 rounded-full overflow-hidden">
+      <img
+        src={person.img}
+        alt={person.name}
+        className="object-cover w-full h-full"
+      />
+    </div>
+    <div>
+      <div className="font-semibold">{person.name}</div>
+      <div className="text-sm">{person.role}</div>
+      {person.org && <div className="text-sm text-gray-600">{person.org}</div>}
+      {person.desc && (
+        <p className="text-sm text-gray-600 max-w-64">{person.desc}</p>
+      )}
+      {person.email && <p className="text-sm">Email: {person.email}</p>}
+    </div>
+  </div>
+);
+
+const CommitteeTable = ({ title, members }) => (
+  <div className="mb-12">
+    <SectionTitle title={title} />
+    <div className="overflow-x-auto">
+      <table className="w-full bg-white rounded-xl shadow-md">
+        <thead className="bg-indigo-600 text-white">
+          <tr>
+            <th className="px-4 py-2">S.No.</th>
+            <th className="px-4 py-2 text-left">Name</th>
+            <th className="px-4 py-2 text-left">Affiliation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {members.map((m, i) => (
+            <tr key={i} className="border-t">
+              <td className="px-4 py-2 text-center">{i + 1}</td>
+              <td className="px-4 py-2">{m.name}</td>
+              <td className="px-4 py-2 text-gray-600">{m.affiliation}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+);
 
 export default function CommitteePage() {
   return (
     <div>
-      <section className="relative h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 text-white px-6">
-        <div className="absolute inset-0">
-          <img
-            src="https://iesbpl.ac.in/uploads/slider/icot.jpg"
-            alt="conference background"
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 }`}
-          />
-          <div className="absolute inset-0 bg-black/60"></div>
-        </div>
+      <section className="relative h-screen flex items-center justify-center text-center text-white px-6">
+        <img
+          src="https://iesbpl.ac.in/uploads/slider/icot.jpg"
+          alt="conference"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
             Conference Committee
           </h1>
-          <p className="text-lg leading-relaxed">
-            Meet the distinguished team of experts leading ICBDML 2026 - 2nd
-            International Conference on Big Data & Machine Learning.
-            <br />
-            <br />
-            Our conference is guided by a prestigious committee of international
-            experts, academics, and industry leaders who ensure the highest
-            standards of quality and innovation.
+          <p className="text-lg">
+            Meet the distinguished team leading ICBDML 2026.
           </p>
         </div>
       </section>
-      <section className="py-16 px-6 md:px-12 bg-gray-50 text-gray-800">
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
-            Patron
-          </h3>
-          <div className="flex justify-center items-center bg-white shadow-2xl p-4 gap-8 rounded-2xl">
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500 ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={ss} alt="avatar" />
-              </div>
-              <div>
-                <div className="font-semibold">Dr. Sunita Singh</div>
-                <div className="text-sm">Group Director</div>
-                <div className="text-sm text-gray-600">ICOT, Bhopal</div>
-              </div>
-            </div>
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={gt} alt="avatar" />
-              </div>
-              <div>
-                <div className="font-semibold">Dr. G.S. Tomar</div>
-                <div className="text-sm">Chairperson</div>
-                <div className="text-sm text-gray-600">IEEE, M.P. Section</div>
-              </div>
-            </div>
-          </div>
+      <section className="py-16 px-6 md:px-12 bg-gray-50">
+        <SectionTitle title="Patron" />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+          {patrons.map((p) => (
+            <PersonCard key={p.name} person={p} />
+          ))}
         </div>
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-4 text-indigo-700">
-            Keynote Speakers
-          </h3>
-          <div className="flex flex-wrap justify-center items-center bg-white shadow-2xl p-4 gap-8 rounded-2xl">
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500 ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={aa} alt="avatar" className="object-contain" />
-              </div>
-              <div>
-                <div className="font-semibold">Ashutosh Agarwal</div>
-                <div className="text-sm">Keynote Speaker</div>
-                <p className="text-sm text-gray-600 max-w-64">
-                  School of Business, Stevens Institute of Technology, Hoboken,
-                  USA
-                </p>
-                <p className="text-sm">Email: ashutoshagarwal198@gmail.com</p>
-              </div>
-            </div>
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={an} alt="avatar" />
-              </div>
-              <div>
-                <div className="font-semibold">Aravind Narayanan</div>
-                <div className="text-sm">Keynote Speaker</div>
-                <p className="text-sm text-gray-600 max-w-64">
-                  InsurTech Leader (Fitchburg State University, VM Inc.)
-                </p>
-                <p className="text-sm">Email: anarayanan.pmp@gmail.com</p>
-              </div>
-            </div>
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={svc} alt="avatar" />
-              </div>
-              <div>
-                <div className="font-semibold">Sai Vamsi Chennupati</div>
-                <div className="text-sm">Keynote Speaker</div>
-                <p className="text-sm text-gray-600 max-w-64">
-                  Senior Software Engineer - Western Union (2023-Present)
-                </p>
-                <p className="text-sm">Email: vamsi.change20@gmail.com</p>
-              </div>
-            </div>
-            <div className="p-8 bg-white rounded-xl shadow-md flex items-center gap-8 hover:shadow-2xl hover:-translate-y-1 duration-500  ">
-              <div className="w-32 h-32 border-2 border-blue-500 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold overflow-hidden">
-                <img src={sy} alt="avatar" />
-              </div>
-              <div>
-                <div className="font-semibold">Sasikanth Yangalasetty</div>
-                <div className="text-sm">Keynote Speaker</div>
-                <p className="text-sm text-gray-600 max-w-64">
-                  Product Manager – McKesson (Healthcare & Enterprise Software)
-                </p>
-                <p className="text-sm">Email: yskanth19@gmail.com</p>
-              </div>
-            </div>
-          </div>
+        <SectionTitle title="Keynote Speakers" />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+          {keynoteSpeakers.map((k) => (
+            <PersonCard key={k.name} person={k} />
+          ))}
         </div>
         <CommitteeTable
           title="General Chairs/Conference Chairs"
@@ -396,34 +425,6 @@ export default function CommitteePage() {
           ]}
         />
       </section>
-    </div>
-  );
-}
-
-function CommitteeTable({ title, members }) {
-  return (
-    <div className="mb-12">
-      <h3 className="text-2xl font-semibold mb-4 text-indigo-700">{title}</h3>
-      <div className="overflow-x-auto">
-        <table className="w-full bg-white rounded-xl shadow-md overflow-hidden">
-          <thead className="bg-indigo-600 text-white">
-            <tr>
-              <th className="px-4 py-2">S.No.</th>
-              <th className="px-4 py-2 text-left">Name</th>
-              <th className="px-4 py-2 text-left">Affiliation</th>
-            </tr>
-          </thead>
-          <tbody>
-            {members.map((m, i) => (
-              <tr key={i} className="border-t">
-                <td className="px-4 py-2 text-center">{i + 1}</td>
-                <td className="px-4 py-2">{m.name}</td>
-                <td className="px-4 py-2 text-gray-600">{m.affiliation}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 }
