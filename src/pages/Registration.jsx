@@ -16,12 +16,11 @@ export default function Registration() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Conference Registration
+            Conference Registration [ Closed ]
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto">
             Join us for <span className="font-semibold">ICBDML-2026</span> and
             be part of cutting-edge research in optimization techniques.
-            Register now to secure your spot!
           </p>
         </div>
       </section>

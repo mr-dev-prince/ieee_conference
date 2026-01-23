@@ -44,9 +44,9 @@ export default function CallForPapers() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="https://cmt3.research.microsoft.com/ICBDML2026"
-              className="bg-blue-600 hover:bg-blue-800 px-6 py-3 rounded-lg font-semibold flex items-center gap-2"
+              className="bg-gray-600 hover:bg-gray-800 px-6 py-3 rounded-lg font-semibold flex items-center gap-2 pointer-events-none"
             >
-              <i className="fas fa-paper-plane" /> Submit Paper
+              <i className="fas fa-paper-plane" /> Submit Paper [ Closed ]
             </a>
             <a
               href="/submission"
@@ -140,25 +140,33 @@ export default function CallForPapers() {
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Abstract Submission Date{" "}
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">10th September 2025</p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">
+            10th September 2025 [ Closed ]
+          </p>
         </div>{" "}
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Final Paper Submission Date
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">30th November 2025</p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">
+            30th November 2025 [ Closed ]
+          </p>
         </div>
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Full Paper Submission Date{" "}
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">27th Dec 2025</p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">
+            27th Dec 2025 [ Closed ]
+          </p>
         </div>
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Notification of Acceptance Date{" "}
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">15th Dec 2025</p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">
+            15th Dec 2025 [ Closed ]
+          </p>
         </div>
       </section>
     </div>

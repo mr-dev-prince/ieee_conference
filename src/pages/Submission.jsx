@@ -21,9 +21,9 @@ export default function Submission() {
               ICBDML-2026 - International Conference on Optimization Techniques
             </span>
           </p>
-          <div className="inline-flex items-center animate-pulse gap-2 bg-green-700 px-6 py-3 rounded-xl shadow-lg font-semibold">
+          <div className="inline-flex items-center animate-pulse gap-2 bg-red-700 px-6 py-3 rounded-xl shadow-lg font-semibold">
             <i className="fas fa-exclamation-circle"></i>
-            Paper Submission: Ongoing
+            Paper Submission: Closed
           </div>
         </div>
       </header>

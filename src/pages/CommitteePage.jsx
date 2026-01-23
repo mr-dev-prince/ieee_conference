@@ -6,6 +6,12 @@ import svc from "../assets/Sai_Vamsi_Chennupati.jpeg";
 import sy from "../assets/Sasikanth_Yangalasetty.jpeg";
 import rg from "../assets/Raghu-Gollapudi.jpg";
 import srg from "../assets/Sasidhar-Reddy-Gaddam.jpeg";
+import sd from "../assets/sandeep-dommari.jpeg";
+import st from "../assets/sudhakar-tiwari.jpeg";
+import spk from "../assets/saiprakash-kodela.jpeg";
+import sfr from "../assets/saifur-rahman.jpeg";
+import akp from "../assets/akshar-patel.jpeg";
+import dsj from "../assets/divyaraj-singh-jatav.jpeg";
 
 const patrons = [
   {
@@ -64,6 +70,48 @@ const keynoteSpeakers = [
     desc: "Product Manager – McKesson",
     email: "yskanth19@gmail.com",
     img: sy,
+  },
+  {
+    name: "Sandeep Dommari",
+    role: "Keynote Speaker",
+    desc: "Prinicipal Cybersecurity Architect",
+    email: "sandeep.dommari@ieee.org",
+    img: sd,
+  },
+  {
+    name: "Sudhakar Tiwari",
+    role: "Keynote Speaker",
+    desc: "Principal Cybersecurity Architect ",
+    email: "sudhakar.tiwari@ieee.org",
+    img: st,
+  },
+  {
+    name: "Divyaraj Singh Jatav",
+    role: "Keynote Speaker",
+    desc: "Independent Researcher - Westcliff University",
+    email: "divyaraj.singh.dj@gmail.com",
+    img: dsj,
+  },
+  {
+    name: "Akshar Patel",
+    role: "Keynote Speaker",
+    desc: " Department Of Computer Science, City College Of New York, NY, USA",
+    email: "patel.akshar111@gmail.com",
+    img: akp,
+  },
+  {
+    name: "Saiprakash Kodela",
+    role: "Keynote Speaker",
+    desc: "Software Engineer, USA",
+    email: "kodela.saiprakash29@gmail.com",
+    img: spk,
+  },
+  {
+    name: "Md. Saifur Rahman",
+    role: "Keynote Speaker",
+    desc: "Central Washington University | Erecyclee.org (own org)",
+    email: "Safiadmission@gmail.com",
+    img: sfr,
   },
 ];
 

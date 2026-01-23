@@ -34,8 +34,8 @@ export default function Hero() {
          animate-marquee"
         >
           👉 IEEE Conference | Madhya Pradesh Section | 2026 {" • "}
-          <span className="text-red-600">
-            Schedules Released | Check Schedule Section
+          <span className="text-red-600 animate-pulse">
+            Sumission Closed | Check Schedule Section
           </span>
         </p>
       </div>
@@ -76,9 +76,9 @@ export default function Hero() {
           <div className="mt-6 flex gap-4 justify-center flex-wrap">
             <a
               href="#register"
-              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center gap-2 font-semibold"
+              className="px-6 py-3 bg-gray-600 pointer-events-none hover:bg-gray-700 rounded-lg flex items-center gap-2 font-semibold"
             >
-              <FaTicketAlt /> Register Now
+              <FaTicketAlt /> Register Now [ Closed ]
             </a>
             <a
               href="#about"

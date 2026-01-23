@@ -16,7 +16,7 @@ const events = [
     description:
       "Call for papers announced. Researchers can start submitting their original work across all conference tracks including AI, Machine Learning, and Big Data Analytics.",
     icon: FaRocket,
-    status: "Upcoming",
+    status: "Closed",
   },
   {
     title: "Full Paper Submission Deadline",
@@ -24,8 +24,8 @@ const events = [
     description:
       "Final deadline for full-length paper submissions. All papers must be original, unpublished work following IEEE format guidelines.",
     icon: FaClock,
-    status: "Upcoming",
-    extraNotice: "Extended deadline - Don't miss this final opportunity!",
+    status: "Closed",
+    extraNotice: "",
   },
   {
     title: "Acceptance Notification",
@@ -33,7 +33,7 @@ const events = [
     description:
       "Authors will be notified about the acceptance status of their submissions via email. Detailed reviewer feedback will be provided for all submissions.",
     icon: FaCheckCircle,
-    status: "Upcoming",
+    status: "Closed",
   },
   {
     title: "Camera Ready Submission",
@@ -41,7 +41,7 @@ const events = [
     description:
       "Final version of accepted papers must be submitted incorporating reviewer comments. Papers will be submitted to IEEE Xplore for publication.",
     icon: FaFileUpload,
-    status: "Upcoming",
+    status: "Closed",
   },
   {
     title: "Early Registration Period",
@@ -49,7 +49,7 @@ const events = [
     description:
       "Early bird registration period with special discounted rates for students, IEEE members, and international participants. Secure your spot today!",
     icon: FaUserPlus,
-    status: "Upcoming",
+    status: "Closed",
   },
   {
     title: "Conference Days",
@@ -57,7 +57,7 @@ const events = [
     description:
       "Two-day international conference featuring keynote speeches, technical paper presentations, panel discussions, and networking sessions with industry leaders and researchers.",
     icon: FaCalendarAlt,
-    status: "Upcoming",
+    status: "Closed",
   },
 ];
 
@@ -100,7 +100,7 @@ export default function ImpDates() {
                         <h3 className="font-semibold text-lg">{e.title}</h3>
                         <span
                           className={`text-xs text-white px-2 py-1 rounded ${statusClasses(
-                            e.extraNotice ? "Extended" : e.status
+                            e.extraNotice ? "Extended" : e.status,
                           )}`}
                         >
                           {e.extraNotice ? "Extended" : e.status}
@@ -122,7 +122,7 @@ export default function ImpDates() {
 
                 <div
                   className={`z-10 flex items-center justify-center w-10 h-10 rounded-full ring-8 ring-white text-white ${statusClasses(
-                    e.extraNotice ? "Extended" : e.status
+                    e.extraNotice ? "Extended" : e.status,
                   )}`}
                 >
                   <Icon className="w-5 h-5" />
@@ -135,7 +135,7 @@ export default function ImpDates() {
                         <h3 className="font-semibold text-lg">{e.title}</h3>
                         <span
                           className={`text-xs text-white px-2 py-1 rounded ${statusClasses(
-                            e.extraNotice ? "Extended" : e.status
+                            e.extraNotice ? "Extended" : e.status,
                           )}`}
                         >
                           {e.extraNotice ? "Extended" : e.status}
