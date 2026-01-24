@@ -16,7 +16,7 @@ export default function Registration() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Conference Registration [ Closed ]
+            Conference Registration
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto">
             Join us for <span className="font-semibold">ICBDML-2026</span> and
@@ -141,23 +141,23 @@ export default function Registration() {
         <h2 className="text-2xl font-bold mb-6">Payment Details</h2>
         <div className="bg-white shadow rounded-lg p-6 space-y-3">
           <p>
-            <strong>Account Holder:</strong> IES COLLEGE OF TECHNOLOGY
+            <strong>Account Holder:</strong> IES College of Technology
           </p>
           <p>
-            <strong>Bank Name:</strong> INDIAN BANK
+            <strong>Bank Name:</strong> Axis Bank
           </p>
           <p>
-            <strong>City:</strong> BHOPAL ARERA COLONY
+            <strong>City:</strong> Bhopal
           </p>
           <p>
-            <strong>IFSC Code:</strong> IDIB000B796
+            <strong>IFSC Code:</strong> UTIB0002659
           </p>
-          <p>
+          {/* <p>
             <strong>Branch:</strong> E-2/60, NEAR 7 BUS STOP, ARERA COLONY,
-            BHOPAL
-          </p>
+            BHOPAL  
+          </p> */}
           <p>
-            <strong>Account Number:</strong> 20027236539
+            <strong>Account Number:</strong> 911010062612812
           </p>
         </div>
       </section>
@@ -170,7 +170,7 @@ export default function Registration() {
           complete your process.
         </p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSftlYlOvgqXcoXgmqHR1CrwK-OuivmAySDh3YvBnOjBtlLsTg/closedform"
+          href="https://forms.gle/SvhLJYaMRRkdyHnu7"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"

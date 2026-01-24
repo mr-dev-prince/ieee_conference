@@ -75,10 +75,11 @@ export default function Hero() {
 
           <div className="mt-6 flex gap-4 justify-center flex-wrap">
             <a
-              href="#register"
-              className="px-6 py-3 bg-gray-600 pointer-events-none hover:bg-gray-700 rounded-lg flex items-center gap-2 font-semibold"
+              href="https://forms.gle/SvhLJYaMRRkdyHnu7"
+              target="_blank"
+              className="px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg flex items-center gap-2 font-semibold"
             >
-              <FaTicketAlt /> Register Now [ Closed ]
+              <FaTicketAlt /> Register Now
             </a>
             <a
               href="#about"
