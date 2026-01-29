@@ -11,7 +11,7 @@ export default function RegistrationFee() {
           <tr>
             <th className="border p-3"></th>
             <th className="border p-3 text-center" colSpan={2}>
-              Early Bird (1st Jan - 10th Jan 2026)
+              Early Bird (February 1st – February 10th, 2026)
             </th>
             <th className="border p-3 text-center" colSpan={2}>
               Late Registration

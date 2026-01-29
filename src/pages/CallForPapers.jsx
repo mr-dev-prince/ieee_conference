@@ -38,7 +38,8 @@ export default function CallForPapers() {
           </span>
           <h1 className="text-5xl font-extrabold mb-4">ICBDML-2026</h1>
           <p className="text-lg mb-8">
-            2nd International Conference on Big Data and Machine Learning |{" "}
+            2nd International Conference on Big Data and Machine Learning at{" "}
+            <br /> <strong>IES College of Technology,</strong>
             <br /> Bhopal, Madhya Pradesh, India
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
@@ -46,7 +47,7 @@ export default function CallForPapers() {
               href="https://cmt3.research.microsoft.com/ICBDML2026"
               className="bg-gray-600 hover:bg-gray-800 px-6 py-3 rounded-lg font-semibold flex items-center gap-2 pointer-events-none"
             >
-              <i className="fas fa-paper-plane" /> Submit Paper [ Closed ]
+              <i className="fas fa-paper-plane" /> Paper Submission Closed
             </a>
             <a
               href="/submission"
@@ -141,7 +142,7 @@ export default function CallForPapers() {
             Abstract Submission Date{" "}
           </p>
           <p className="bg-gray-200 p-2 rounded-b-sm">
-            10th September 2025 [ Closed ]
+            10th November 2025 [ Closed ]
           </p>
         </div>{" "}
         <div className="max-w-5xl mx-auto text-left flex flex-col">
@@ -149,24 +150,20 @@ export default function CallForPapers() {
             Final Paper Submission Date
           </p>
           <p className="bg-gray-200 p-2 rounded-b-sm">
-            30th November 2025 [ Closed ]
+            31st Dec 2025 [ Closed ]
           </p>
         </div>
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Full Paper Submission Date{" "}
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">
-            27th Dec 2025 [ Closed ]
-          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">31st Jan 2026</p>
         </div>
         <div className="max-w-5xl mx-auto text-left flex flex-col">
           <p className="text-xl font-semibold bg-gray-400 p-2 rounded-t-sm text-white">
             Notification of Acceptance Date{" "}
           </p>
-          <p className="bg-gray-200 p-2 rounded-b-sm">
-            15th Dec 2025 [ Closed ]
-          </p>
+          <p className="bg-gray-200 p-2 rounded-b-sm">03rd February 2026</p>
         </div>
       </section>
     </div>

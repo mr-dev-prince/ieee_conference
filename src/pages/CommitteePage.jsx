@@ -115,6 +115,67 @@ const keynoteSpeakers = [
   },
 ];
 
+const tpc = [
+  { name: "Prof. Dr. Ram Bilas Pachori", affiliation: "IIT Indore" },
+  {
+    name: "Dr. Jitendra Agarwal",
+    affiliation: "Director, SOIT, RGPV, Bhopal",
+  },
+  {
+    name: "Dr. Deepak Singh Tomar",
+    affiliation: "Professor, MANIT, Bhopal",
+  },
+  {
+    name: "Mrs. Suman Agrawal",
+    affiliation: "Scientist –‘F’ DRDO Hyderabad",
+  },
+  {
+    name: "Dr. Sonali Paunikar",
+    affiliation: "EXE Dept., IES College of Technology, Bhopal",
+  },
+  {
+    name: "Prof. Dr. D.K. Yadav",
+    affiliation: "Professor, MNIT Allahabad",
+  },
+
+  {
+    name: "Shailesh Sayarmal Chaudhary",
+    affiliation: "Independent Researcher, USA",
+  },
+  {
+    name: "Faiz Mohiuddin Mulla",
+    affiliation: "Independent Researcher, USA",
+  },
+  {
+    name: "Anokh Kishore",
+    affiliation: "Independent Researcher, USA",
+  },
+  {
+    name: "Shekar Vollem",
+    affiliation: "Independent Researcher, Dallas, Texas, USA",
+  },
+  {
+    name: "Virendra Singh Chawra",
+    affiliation: "Senior Specialist, Deloitte Consulting LLP, Raleigh, NC, USA",
+  },
+  {
+    name: "Vivek Nayan",
+    affiliation: "Independent Researcher, USA",
+  },
+  {
+    name: "Vishal Nayan",
+    affiliation: "Independent Researcher, USA",
+  },
+  {
+    name: "Saiprakash Kodela",
+    affiliation: "Software Engineer, USA",
+  },
+  {
+    name: "Bhasker Reddy Ande",
+    affiliation: "Manager Solutions Architect, Ashburn, Virginia, USA",
+  },
+];
+
 const SectionTitle = ({ title }) => (
   <h3 className="text-2xl font-semibold mb-6 text-indigo-700">{title}</h3>
 );
@@ -225,49 +286,16 @@ export default function CommitteePage() {
             },
           ]}
         />
-        <CommitteeTable
-          title="TPC/Track Chairs"
-          members={[
-            { name: "Prof. Dr. Ram Bilas Pachori", affiliation: "IIT Indore" },
-            {
-              name: "Dr. Jitendra Agarwal",
-              affiliation: "Director, SOIT, RGPV, Bhopal",
-            },
-            {
-              name: "Dr. Deepak Singh Tomar",
-              affiliation: "Professor, MANIT, Bhopal",
-            },
-            {
-              name: "Dr. Vijay Singh Rathore",
-              affiliation: "IES College of Technology, Bhopal",
-            },
-            {
-              name: "Mrs. Suman Agrawal",
-              affiliation: "Scientist –‘F’ DRDO Hyderabad",
-            },
-            {
-              name: "Dr. Sonali Paunikar",
-              affiliation: "EXE Dept., IES College of Technology, Bhopal",
-            },
-            {
-              name: "Prof. Dr. D.K. Yadav",
-              affiliation: "Professor, MNIT Allahabad",
-            },
-            {
-              name: "Dr. Nilanjan Dey",
-              affiliation: "CSE, Techno International New Town, Kolkata",
-            },
-          ]}
-        />
+        <CommitteeTable title="TPC/Track Chairs" members={tpc} />
         <CommitteeTable
           title="Publicity Committee Chairs"
           members={[
             {
-              name: "Prof Anubhav Sharma [ CSE ]",
+              name: "Dr. Parmalik [ HOD - CSE ]",
               affiliation: "IES College of Technology, Bhopal",
             },
             {
-              name: "Dr. Parmalik [ HOD - CSE ]",
+              name: "Prof Anubhav Sharma [ CSE ]",
               affiliation: "IES College of Technology, Bhopal",
             },
           ]}

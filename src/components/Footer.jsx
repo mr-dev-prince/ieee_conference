@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-2">Contact Info</h3>
             <p className="text-sm">Bhopal, MP 462044</p>
-            <p className="text-sm">+91-9893216819</p>
+            <p className="text-sm">+91 6267-578809</p>
             <a className="text-sm" href="mailto:icbdml_2026@iesbpl.ac.in">
               E-Mail Address : <span className="text-blue-600">icbdml_2026@iesbpl.ac.in</span>
             </a>

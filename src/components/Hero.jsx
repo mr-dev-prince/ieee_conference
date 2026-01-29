@@ -1,5 +1,6 @@
+import { FaCalendarAlt, FaInfoCircle, FaTicketAlt } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { FaCalendarAlt, FaTicketAlt, FaInfoCircle } from "react-icons/fa";
+
 import ieee from "../assets/ieee.png";
 
 const images = [
@@ -34,9 +35,7 @@ export default function Hero() {
          animate-marquee"
         >
           👉 IEEE Conference | Madhya Pradesh Section | 2026 {" • "}
-          <span className="text-red-600 animate-pulse">
-            Sumission Closed | Check Schedule Section
-          </span>
+          <span className="text-red-600 animate-pulse">Submission Closed</span>
         </p>
       </div>
       <div className="relative h-screen flex items-center justify-center text-center">
@@ -65,12 +64,12 @@ export default function Hero() {
           </h1>
 
           <div className="mt-4 inline-block px-4 py-2 rounded-full border border-green-400 bg-green-600/40">
-            Conference in Hybrid Mode: Online & Offline
+            Conference in Hybrid Mode
           </div>
 
           <p className="mt-4 text-lg max-w-3xl mx-auto">
-            Join the world's leading experts in Big Data and Machine Learning at
-            IES College of Technology, Bhopal.
+            Join the world's leading experts in Big Data and Machine Learning{" "}
+            <br /> at <strong>IES College of Technology, Bhopal.</strong>
           </p>
 
           <div className="mt-6 flex gap-4 justify-center flex-wrap">

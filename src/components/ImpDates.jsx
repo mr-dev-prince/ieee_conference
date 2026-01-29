@@ -1,17 +1,18 @@
-import React from "react";
 import {
-  FaRocket,
-  FaClock,
-  FaCheckCircle,
-  FaFileUpload,
-  FaUserPlus,
   FaCalendarAlt,
+  FaCheckCircle,
+  FaClock,
   FaExclamationTriangle,
+  FaFileUpload,
+  FaRocket,
+  FaUserPlus,
 } from "react-icons/fa";
+
+import React from "react";
 
 const events = [
   {
-    title: "Paper Submission Opens",
+    title: "Paper Submission",
     date: "September 10, 2025",
     description:
       "Call for papers announced. Researchers can start submitting their original work across all conference tracks including AI, Machine Learning, and Big Data Analytics.",
@@ -20,36 +21,35 @@ const events = [
   },
   {
     title: "Full Paper Submission Deadline",
-    date: "January 25 2026",
+    date: "January 31, 2026",
     description:
       "Final deadline for full-length paper submissions. All papers must be original, unpublished work following IEEE format guidelines.",
     icon: FaClock,
-    status: "Closed",
-    extraNotice: "",
+    status: "Upcoming",
   },
   {
     title: "Acceptance Notification",
-    date: "January 15, 2026",
+    date: "February 3, 2026",
     description:
       "Authors will be notified about the acceptance status of their submissions via email. Detailed reviewer feedback will be provided for all submissions.",
     icon: FaCheckCircle,
-    status: "Closed",
+    status: "Upcoming",
   },
   {
     title: "Camera Ready Submission",
-    date: "January 30, 2026",
+    date: "February 1st - February 10th, 2026",
     description:
       "Final version of accepted papers must be submitted incorporating reviewer comments. Papers will be submitted to IEEE Xplore for publication.",
     icon: FaFileUpload,
-    status: "Closed",
+    status: "Upcoming",
   },
   {
     title: "Early Registration Period",
-    date: "February 1 – February 10, 2026",
+    date: "February 1st – February 10th, 2026",
     description:
       "Early bird registration period with special discounted rates for students, IEEE members, and international participants. Secure your spot today!",
     icon: FaUserPlus,
-    status: "Closed",
+    status: "Upcoming",
   },
   {
     title: "Conference Days",
@@ -57,7 +57,7 @@ const events = [
     description:
       "Two-day international conference featuring keynote speeches, technical paper presentations, panel discussions, and networking sessions with industry leaders and researchers.",
     icon: FaCalendarAlt,
-    status: "Closed",
+    status: "Upcoming",
   },
 ];
 

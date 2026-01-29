@@ -1,4 +1,5 @@
 import { Calendar, CreditCard, FileText, Info } from "lucide-react";
+
 import RegistrationFee from "../components/RegistrationFee";
 
 export default function Registration() {
@@ -20,7 +21,8 @@ export default function Registration() {
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto">
             Join us for <span className="font-semibold">ICBDML-2026</span> and
-            be part of cutting-edge research in optimization techniques.
+            be part of cutting-edge research in
+            <strong>Big Data and Machine Learning</strong>.
           </p>
         </div>
       </section>
@@ -85,7 +87,7 @@ export default function Registration() {
                   Participation Type
                 </th>
                 <th colSpan={2} className="px-6 py-3 border">
-                  Early Bird (Till 30th Jan 2024)
+                  Early Bird (February 1st - February 10th, 2026)
                 </th>
                 <th colSpan={2} className="px-6 py-3 border">
                   Late Registration
@@ -186,12 +188,18 @@ export default function Registration() {
             least three reviewers.
           </li>
           <li>
-            <strong>Publication:</strong> Accepted papers will be submitted to
-            IEEE Xplore (subject to IEEE checks).
+            <strong>Publication:</strong> Accepted and Presented papers will be
+            submitted to IEEE Xplore{" "}
+            <span className="text-red-600 font-medium">
+              [ which meets IEEE norms ]
+            </span>
           </li>
           <li>
             <strong>Committee Approval:</strong> Fee structure approved by IES
-            College & committees.
+            College & committees.{" "}
+            <span className="text-red-600 font-medium">
+              [ Registration fee is non-refundable ]
+            </span>
           </li>
           <li>
             <strong>Registration Includes:</strong> Access to sessions,

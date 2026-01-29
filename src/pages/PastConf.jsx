@@ -1,4 +1,4 @@
-import { Calendar, Clock, Info, CalendarPlus } from "lucide-react";
+import { Calendar, CalendarPlus, Clock, Info } from "lucide-react";
 
 const PastConf = () => {
   return (
@@ -15,7 +15,7 @@ const PastConf = () => {
           <h1 className="text-5xl font-bold mb-4">Past Conferences</h1>
           <p className="text-lg">
             Explore our successful conferences and events that have brought
-            together researchers, academics, and industry professionals from
+            together researchers, academicians, and industry professionals from
             around the world.
           </p>
         </div>

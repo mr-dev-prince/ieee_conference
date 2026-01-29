@@ -16,14 +16,15 @@ export default function Submission() {
             Paper Submission
           </h1>
           <p className="text-lg md:text-xl leading-relaxed mb-6">
-            Submit your research papers for{" "}
+            Submit your research papers for
             <span className="font-semibold">
-              ICBDML-2026 - International Conference on Optimization Techniques
+              ICBDML-2026 - International Conference on
+              <strong>Big Data and Machine Learning</strong>
             </span>
           </p>
           <div className="inline-flex items-center animate-pulse gap-2 bg-red-700 px-6 py-3 rounded-xl shadow-lg font-semibold">
             <i className="fas fa-exclamation-circle"></i>
-            Paper Submission: Closed
+            Paper Submission Closed
           </div>
         </div>
       </header>

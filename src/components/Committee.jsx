@@ -1,5 +1,5 @@
-import ss from "../assets/sunita_singh.jpg";
 import gt from "../assets/gstomar.jpg";
+import ss from "../assets/sunita_singh.jpg";
 
 const committeeData = {
   patron: [
@@ -24,6 +24,11 @@ const committeeData = {
       title: "General Chair",
       affiliation: "Principal, IES College of Technology",
     },
+    {
+      name: "Prof. Dr. Nikhat Raza Khan",
+      title: "General Chair",
+      affiliation: "SMIEEE, Bhopal",
+    },
   ],
   programChairs: [
     {
@@ -41,7 +46,7 @@ const committeeData = {
 
 const CommitteeSection = ({ title, members }) => (
   <div className="mb-10">
-    <h3 className="text-3xl font-bold text-gray-800 mb-8 bg-gradient-to-r from-blue-500 to-transparent text-center rounded-l-full py-2">
+    <h3 className="text-3xl font-bold text-gray-800 mb-8 bg-gradient-to-r from-blue-500 to-transparent text-center rounded-l-xl py-2">
       {title}
     </h3>
     <div className="flex flex-col gap-4">
@@ -59,7 +64,7 @@ const CommitteeSection = ({ title, members }) => (
           </div>
           <div>
             <p className="text-orange-500 font-semibold">{m.title}</p>
-            <p className="font-bold text-3xl">{m.name}</p>
+            <p className="font-bold text-3xl font-serif">{m.name}</p>
             <p className="text-xl text-gray-500">{m.affiliation}</p>
           </div>
         </div>
@@ -75,8 +80,9 @@ export default function Committee() {
         <h1 className="text-3xl font-bold mb-4">Conference Committee</h1>
         <p className="text-gray-700">
           Meet the distinguished team of experts leading ICBDML 2026. Our
-          conference is guided by international experts, academics, and industry
-          leaders ensuring the highest standards of quality and innovation.
+          conference is guided by international experts, academicians, and
+          industry leaders ensuring the highest standards of quality and
+          innovation.
         </p>
       </section>
       <CommitteeSection title="Patron" members={committeeData.patron} />
