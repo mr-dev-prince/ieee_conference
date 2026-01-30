@@ -73,7 +73,7 @@ const statusClasses = (status) => {
 
 export default function ImpDates() {
   return (
-    <section className="px-4 pt-24 pb-6 max-w-6xl mx-auto" id="schedule">
+    <section className="px-4 pb-6 max-w-6xl mx-auto" id="schedule">
       <div className="text-center mb-12 border-b border-dashed">
         <h2 className="text-4xl font-bold mb-8">Important Dates</h2>
         <p className="text-gray-600 mt-2">
