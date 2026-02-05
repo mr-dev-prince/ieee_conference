@@ -407,6 +407,10 @@ export default function CommitteePage() {
               name: "Riaz Ahmed Mohammed Sait",
               affiliation: "Oracle Corporation, USA",
             },
+            {
+              name: "Manoj Parasa",
+              affiliation: "Senior SAP Successfactors Consultant, Ernst & Young City, Dallas, USA",
+            },
           ]}
         />
         <CommitteeTable
