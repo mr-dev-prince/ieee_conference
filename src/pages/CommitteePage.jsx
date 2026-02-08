@@ -4,6 +4,10 @@ import an from "../assets/Aravind_Narayanan.jpeg";
 import dsj from "../assets/divyaraj-singh-jatav.jpeg";
 import gt from "../assets/gstomar.jpg";
 import rg from "../assets/Raghu-Gollapudi.jpg";
+import sanu from "../assets/S-Anudeep.jpeg";
+import spp from "../assets/Sree-Pranathi-Pallela.jpg";
+import ssr from "../assets/Sridhar-Sriharsha-Rachakonda.jpeg";
+import tv from "../assets/Tharakesavulu-Vangalapat.jpeg";
 import sd from "../assets/sudhakar-tiwari.jpeg";
 import sfr from "../assets/saifur-rahman.jpeg";
 import spk from "../assets/saiprakash-kodela.jpeg";
@@ -115,6 +119,37 @@ const keynoteSpeakers = [
   },
 ];
 
+const invitedSpeaker = [
+  {
+    name: "S. Anudeep",
+    role: "Invited Speaker",
+    desc: "Dept. of CSIT, MLR Institute of Technology, Hyederabad, India",
+    email: "anudeep.s@msrit.ac.in",
+    img: sanu,
+  },
+  {
+    name: "Sree Pranathi Pallela",
+    role: "Invited Speaker",
+    desc: "Senior Cybersecurity Engineer at Elanco, IEEE Senior Member",
+    email: "sreepranu29@gmail.com",
+    img: spp,
+  },
+  {
+    name: "Tharakesavulu Vangalapat",
+    role: "Invited Speaker",
+    desc: "Senior Principal Data Scientist and AI Leader",
+    email: "Not Available",
+    img: tv,
+  },
+  {
+    name: "Sridhar Sriharsha Rachakondap",
+    role: "Invited Speaker",
+    desc: "Senior Staff Engineer, Austin, Texas",
+    email: "rssharsha4@gmail.com",
+    img: ssr,
+  },
+];
+
 const tpc = [
   { name: "Prof. Dr. Ram Bilas Pachori", affiliation: "IIT Indore" },
   {
@@ -173,6 +208,14 @@ const tpc = [
   {
     name: "Bhasker Reddy Ande",
     affiliation: "Manager Solutions Architect, Ashburn, Virginia, USA",
+  },
+  {
+    name: "Himani Fnu",
+    affiliation: "Project Manager, Independent Researcher, Chicago IL",
+  },
+  {
+    name: "Maniruzzaman Bhuiyan",
+    affiliation: "M.S in Business Analytics | The University of Dallas.",
   },
 ];
 
@@ -256,6 +299,12 @@ export default function CommitteePage() {
         <SectionTitle title="Keynote Speakers" />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {keynoteSpeakers.map((k) => (
+            <PersonCard key={k.name} person={k} />
+          ))}
+        </div>
+        <SectionTitle title="Invited Speakers" />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+          {invitedSpeaker.map((k) => (
             <PersonCard key={k.name} person={k} />
           ))}
         </div>
@@ -409,7 +458,12 @@ export default function CommitteePage() {
             },
             {
               name: "Manoj Parasa",
-              affiliation: "Senior SAP Successfactors Consultant, Ernst & Young City, Dallas, USA",
+              affiliation:
+                "Senior SAP Successfactors Consultant, Ernst & Young City, Dallas, USA",
+            },
+            {
+              name: "Saravanan Raj",
+              affiliation: "Senior Product Manager, Microsoft, Seattle, USA",
             },
           ]}
         />

@@ -171,14 +171,24 @@ export default function Registration() {
           After making the payment, please fill out the registration form to
           complete your process.
         </p>
-        <a
-          href="https://forms.gle/SvhLJYaMRRkdyHnu7"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
-        >
-          📝 Fill Registration Form
-        </a>
+        <div className="flex gap-5 justify-center items-center">
+          <a
+            href="https://forms.gle/SvhLJYaMRRkdyHnu7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            Fill Registration Form
+          </a>
+          <a
+            href="https://ieee-pdf-express.org/68582#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            Pdf Express Link
+          </a>
+        </div>
       </section>
       <section className="max-w-5xl mx-auto px-6 py-12">
         <h2 className="text-2xl font-bold mb-6">Important Information</h2>
