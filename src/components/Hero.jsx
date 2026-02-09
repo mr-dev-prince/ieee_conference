@@ -29,14 +29,22 @@ export default function Hero() {
           className="w-full h-full object-contain bg-white"
         />
       </div>
-      <div className="relative overflow-hidden mb-2 h-[3vh] bg-white w-full">
-        <p
+      <div className="relative overflow-hidden mb-2 h-[3vh] bg-white w-full gap-16">
+        <div
           className="whitespace-nowrap text-black font-semibold
          animate-marquee"
         >
-          👉 IEEE Conference | Madhya Pradesh Section | 2026 {" • "}
-          <span className="text-red-600 animate-pulse">Submission Closed</span>
-        </p>
+          <p>
+            👉 IEEE Conference | Madhya Pradesh Section | 2026 {" • "}
+            <span className="text-red-600 animate-pulse">
+              Submission Closed
+            </span>
+            <span className="font-semibold ml-12">
+              IEEE Conference ID 68582
+            </span>
+            <span className="font-semibold ml-12">PDF EXPRESS ID - 68582X</span>
+          </p>
+        </div>
       </div>
       <div className="relative h-screen flex items-center justify-center text-center">
         {images.map((src, idx) => (
