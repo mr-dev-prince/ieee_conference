@@ -4,7 +4,6 @@ import an from "../assets/Aravind_Narayanan.jpeg";
 import dsj from "../assets/divyaraj-singh-jatav.jpeg";
 import gt from "../assets/gstomar.jpg";
 import rg from "../assets/Raghu-Gollapudi.jpg";
-import som from "../assets/Somnath.jpeg"; 
 import spp from "../assets/Sree-Pranathi-Pallela.jpg";
 import ssr from "../assets/Sridhar-Sriharsha-Rachakonda.jpeg";
 import tv from "../assets/Tharakesavulu-Vangalapat.jpeg";
@@ -16,6 +15,7 @@ import ss from "../assets/sunita_singh.jpg";
 import st from "../assets/sandeep-dommari.jpeg";
 import svc from "../assets/Sai_Vamsi_Chennupati.jpeg";
 import sy from "../assets/Sasikanth_Yangalasetty.jpeg";
+import sm from "../assets/sm.jpeg";
 
 const patrons = [
   {
@@ -125,7 +125,7 @@ const invitedSpeaker = [
     role: "Invited Speaker",
     desc: "Dept. of CSIT, MLR Institute of Technology, Hyederabad, India",
     email: "anudeep.s@msrit.ac.in",
-    img: som,
+    img: sm,
   },
   {
     name: "Sree Pranathi Pallela",
