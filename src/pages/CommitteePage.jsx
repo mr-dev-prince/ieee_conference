@@ -4,7 +4,7 @@ import an from "../assets/Aravind_Narayanan.jpeg";
 import dsj from "../assets/divyaraj-singh-jatav.jpeg";
 import gt from "../assets/gstomar.jpg";
 import rg from "../assets/Raghu-Gollapudi.jpg";
-import sanu from "../assets/S-Anudeep.jpeg";
+import som from "../assets/Somnath.jpeg";
 import spp from "../assets/Sree-Pranathi-Pallela.jpg";
 import ssr from "../assets/Sridhar-Sriharsha-Rachakonda.jpeg";
 import tv from "../assets/Tharakesavulu-Vangalapat.jpeg";
@@ -121,11 +121,11 @@ const keynoteSpeakers = [
 
 const invitedSpeaker = [
   {
-    name: "S. Anudeep",
+    name: "Somnath",
     role: "Invited Speaker",
     desc: "Dept. of CSIT, MLR Institute of Technology, Hyederabad, India",
     email: "anudeep.s@msrit.ac.in",
-    img: sanu,
+    img: som,
   },
   {
     name: "Sree Pranathi Pallela",
@@ -138,11 +138,11 @@ const invitedSpeaker = [
     name: "Tharakesavulu Vangalapat",
     role: "Invited Speaker",
     desc: "Senior Principal Data Scientist and AI Leader",
-    email: "Not Available",
+    email: "vtharak@gmail.com",
     img: tv,
   },
   {
-    name: "Sridhar Sriharsha Rachakondap",
+    name: "Sridhar Sriharsha Rachakonda",
     role: "Invited Speaker",
     desc: "Senior Staff Engineer, Austin, Texas",
     email: "rssharsha4@gmail.com",
