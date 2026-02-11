@@ -4,7 +4,7 @@ import an from "../assets/Aravind_Narayanan.jpeg";
 import dsj from "../assets/divyaraj-singh-jatav.jpeg";
 import gt from "../assets/gstomar.jpg";
 import rg from "../assets/Raghu-Gollapudi.jpg";
-import som from "../assets/Somnath.jpeg";
+import som from "../assets/Somnath.jpeg"; 
 import spp from "../assets/Sree-Pranathi-Pallela.jpg";
 import ssr from "../assets/Sridhar-Sriharsha-Rachakonda.jpeg";
 import tv from "../assets/Tharakesavulu-Vangalapat.jpeg";
