@@ -217,6 +217,14 @@ const tpc = [
     name: "Maniruzzaman Bhuiyan",
     affiliation: "M.S in Business Analytics | The University of Dallas.",
   },
+  {
+    name: "Tarun Vallabhaneni",
+    affiliation: "Self",
+  },
+  {
+    name: "Nandakishore leburu",
+    affiliation: "Independent researcher",
+  },
 ];
 
 const SectionTitle = ({ title }) => (
