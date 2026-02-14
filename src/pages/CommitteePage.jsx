@@ -121,9 +121,9 @@ const keynoteSpeakers = [
 
 const invitedSpeaker = [
   {
-    name: "Somnath",
+    name: "Somnath Banerjee",
     role: "Invited Speaker",
-    desc: "Dept. of CSIT, MLR Institute of Technology, Hyederabad, India",
+    desc: "Senior Data Engineer | American Family Insurance | Madison, Wisconsin, USA.",
     email: "anudeep.s@msrit.ac.in",
     img: sm,
   },
@@ -219,11 +219,11 @@ const tpc = [
   },
   {
     name: "Tarun Vallabhaneni",
-    affiliation: "Self",
+    affiliation: "Independent Researcher",
   },
   {
     name: "Nandakishore leburu",
-    affiliation: "Independent researcher",
+    affiliation: "Independent Researcher",
   },
 ];
 
