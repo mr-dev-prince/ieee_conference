@@ -139,7 +139,7 @@ export default function Registration() {
           </table>
         </div>
       </section>
-      <section className="max-w-4xl mx-auto px-6 py-12">
+      {/* <section className="max-w-4xl mx-auto px-6 py-12">
         <h2 className="text-2xl font-bold mb-6">Payment Details</h2>
         <div className="bg-white shadow rounded-lg p-6 space-y-3">
           <p>
@@ -154,15 +154,15 @@ export default function Registration() {
           <p>
             <strong>IFSC Code:</strong> UTIB0002659
           </p>
-          {/* <p>
+          <p>
             <strong>Branch:</strong> E-2/60, NEAR 7 BUS STOP, ARERA COLONY,
             BHOPAL  
-          </p> */}
+          </p>
           <p>
             <strong>Account Number:</strong> 911010062612812
           </p>
         </div>
-      </section>
+      </section> */}
       <section className="text-center py-12">
         <h3 className="text-xl font-semibold mb-4">
           ✅ Complete Your Registration
