@@ -124,7 +124,7 @@ const invitedSpeaker = [
     name: "Somnath Banerjee",
     role: "Invited Speaker",
     desc: "Senior Data Engineer | American Family Insurance | Madison, Wisconsin, USA.",
-    email: "anudeep.s@msrit.ac.in",
+    email: "somnathbanerjeedwbi@gmail.com",
     img: sm,
   },
   {
@@ -472,6 +472,14 @@ export default function CommitteePage() {
             {
               name: "Saravanan Raj",
               affiliation: "Senior Product Manager, Microsoft, Seattle, USA",
+            },
+            {
+              name: "Dedeepya Sai Gondi",
+              affiliation: "Lead Engineer at Ascendion",
+            },
+            {
+              name: "Prabal Pathak",
+              affiliation: "Data governance and privacy thought leader",
             },
           ]}
         />
