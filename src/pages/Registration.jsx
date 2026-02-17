@@ -172,14 +172,14 @@ export default function Registration() {
           complete your process.
         </p>
         <div className="flex gap-5 justify-center items-center">
-          <a
-            href="https://forms.gle/SvhLJYaMRRkdyHnu7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
+          <div
+            // href="https://forms.gle/SvhLJYaMRRkdyHnu7"
+            // target="_blank"
+            // rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg shadow hover:bg-gray-700 transition"
           >
             Fill Registration Form
-          </a>
+          </div>
           <a
             href="https://ieee-pdf-express.org/68582#"
             target="_blank"
