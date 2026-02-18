@@ -139,7 +139,7 @@ export default function Registration() {
           </table>
         </div>
       </section>
-      {/* <section className="max-w-4xl mx-auto px-6 py-12">
+      <section className="max-w-4xl mx-auto px-6 py-12">
         <h2 className="text-2xl font-bold mb-6">Payment Details</h2>
         <div className="bg-white shadow rounded-lg p-6 space-y-3">
           <p>
@@ -162,7 +162,7 @@ export default function Registration() {
             <strong>Account Number:</strong> 911010062612812
           </p>
         </div>
-      </section> */}
+      </section>
       <section className="text-center py-12">
         <h3 className="text-xl font-semibold mb-4">
           ✅ Complete Your Registration
@@ -172,14 +172,14 @@ export default function Registration() {
           complete your process.
         </p>
         <div className="flex gap-5 justify-center items-center">
-          <div
-            // href="https://forms.gle/SvhLJYaMRRkdyHnu7"
-            // target="_blank"
-            // rel="noopener noreferrer"
-            className="px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg shadow hover:bg-gray-700 transition"
+          <a
+            href="https://forms.gle/SvhLJYaMRRkdyHnu7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
           >
             Fill Registration Form
-          </div>
+          </a>
           <a
             href="https://ieee-pdf-express.org/68582#"
             target="_blank"
