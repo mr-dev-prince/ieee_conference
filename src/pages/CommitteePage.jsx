@@ -503,7 +503,7 @@ export default function CommitteePage() {
             },
             {
               name: "Prabal Pathak",
-              affiliation: "Data governance and privacy thought leader",
+              affiliation: "Principal PM Architect, Microsoft",
             },
             {
               name: "Sourabh Subhash Rajput",
