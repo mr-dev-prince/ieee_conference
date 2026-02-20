@@ -16,6 +16,9 @@ import st from "../assets/sandeep-dommari.jpeg";
 import svc from "../assets/Sai_Vamsi_Chennupati.jpeg";
 import sy from "../assets/Sasikanth_Yangalasetty.jpeg";
 import sm from "../assets/sm.jpeg";
+import svr from "../assets/Saravanan-Raj.jpeg";
+import rsg from "../assets/Ranjith-Singhu-Ganapathy.jpeg";
+import ts from "../assets/Thilakavathi-Sankaran.jpeg";
 
 const patrons = [
   {
@@ -147,6 +150,27 @@ const invitedSpeaker = [
     desc: "Senior Staff Engineer, Austin, Texas",
     email: "rssharsha4@gmail.com",
     img: ssr,
+  },
+  {
+    name: "Saravanan Raj",
+    role: "Invited Speaker",
+    desc: "Senior Product Manager, Microsoft, Seattle, USA",
+    email: "reach.saravanan.raj@gmail.com",
+    img: svr,
+  },
+  {
+    name: "Ranjith Singhu Ganapathy",
+    role: "Invited Speaker",
+    desc: "Senior Software Developer, Arch Insurance. Toronto,Canada",
+    email: "ranjithsinghu@gmail.com",
+    img: rsg,
+  },
+  {
+    name: "Thilakavathi Sankaran",
+    role: "Invited Speaker",
+    desc: "Data Analytics Professional, Independent Researcher,California, USA",
+    email: "Thila.sankaran@gmail.com",
+    img: ts,
   },
 ];
 
@@ -480,6 +504,10 @@ export default function CommitteePage() {
             {
               name: "Prabal Pathak",
               affiliation: "Data governance and privacy thought leader",
+            },
+            {
+              name: "Sourabh Subhash Rajput",
+              affiliation: "Sr Software Engineer, Independent Researcher, USA",
             },
           ]}
         />
