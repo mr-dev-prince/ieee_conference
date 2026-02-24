@@ -7,6 +7,7 @@ import Submission from "./pages/Submission";
 import CallForPapers from "./pages/CallForPapers";
 import PastConf from "./pages/PastConf";
 import Registration from "./pages/Registration";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/call-for-papers" element={<CallForPapers />} />
         <Route path="/past-conferences" element={<PastConf />} />
         <Route path="/registration" element={<Registration />} />
+        <Route path="/icbdml-schedule" element={<Schedule />} />
       </Routes>
       <Footer />
     </Router>

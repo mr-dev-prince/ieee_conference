@@ -14,30 +14,46 @@ const Navbar = () => {
           >
             ICBDML-2026
           </a>
-          <ul className="hidden md:flex space-x-6 font-medium">
+          <ul className="hidden md:flex space-x-4 font-medium">
             <li>
-              <a href="/" className="hover:text-blue-600">Home</a>
+              <a href="/" className="hover:text-blue-600">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#schedule" className="hover:text-blue-600">Schedule</a>
+              <a href="/icbdml-schedule" className="hover:text-blue-600">
+                ICBDML 26 Schedule
+              </a>
             </li>
             <li>
-              <a href="/committee" className="hover:text-blue-600">Committee</a>
+              <a href="/committee" className="hover:text-blue-600">
+                Committee
+              </a>
             </li>
             <li>
-              <a href="/submission" className="hover:text-blue-600">Paper Submission</a>
+              <a href="/submission" className="hover:text-blue-600">
+                Paper Submission
+              </a>
             </li>
             <li>
-              <a href="/call-for-papers" className="hover:text-blue-600">Paper Call</a>
+              <a href="/call-for-papers" className="hover:text-blue-600">
+                Paper Call
+              </a>
             </li>
             <li>
-              <a href="/past-conferences" className="hover:text-blue-600">Past Event</a>
+              <a href="/past-conferences" className="hover:text-blue-600">
+                Past Event
+              </a>
             </li>
             <li>
-              <a href="/registration" className="hover:text-blue-600">Registration</a>
+              <a href="/registration" className="hover:text-blue-600">
+                Registration
+              </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-blue-600">Contact</a>
+              <a href="#contact" className="hover:text-blue-600">
+                Contact
+              </a>
             </li>
           </ul>
           <button
@@ -58,14 +74,46 @@ const Navbar = () => {
               <X className="w-6 h-6 text-gray-700" />
             </button>
             <ul className="flex flex-col space-y-4 text-lg font-medium mt-4">
-              <li><a href="/" onClick={() => setIsOpen(false)}>Home</a></li>
-              <li><a href="#schedule" onClick={() => setIsOpen(false)}>Schedule</a></li>
-              <li><a href="/committee" onClick={() => setIsOpen(false)}>Committee</a></li>
-              <li><a href="/submission" onClick={() => setIsOpen(false)}>Paper Submission</a></li>
-              <li><a href="/call-for-papers" onClick={() => setIsOpen(false)}>Paper Call</a></li>
-              <li><a href="/past-conferences" onClick={() => setIsOpen(false)}>Past Event</a></li>
-              <li><a href="/registration" onClick={() => setIsOpen(false)}>Registration</a></li>
-              <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+              <li>
+                <a href="/" onClick={() => setIsOpen(false)}>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#schedule" onClick={() => setIsOpen(false)}>
+                  Schedule
+                </a>
+              </li>
+              <li>
+                <a href="/committee" onClick={() => setIsOpen(false)}>
+                  Committee
+                </a>
+              </li>
+              <li>
+                <a href="/submission" onClick={() => setIsOpen(false)}>
+                  Paper Submission
+                </a>
+              </li>
+              <li>
+                <a href="/call-for-papers" onClick={() => setIsOpen(false)}>
+                  Paper Call
+                </a>
+              </li>
+              <li>
+                <a href="/past-conferences" onClick={() => setIsOpen(false)}>
+                  Past Event
+                </a>
+              </li>
+              <li>
+                <a href="/registration" onClick={() => setIsOpen(false)}>
+                  Registration
+                </a>
+              </li>
+              <li>
+                <a href="#contact" onClick={() => setIsOpen(false)}>
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>

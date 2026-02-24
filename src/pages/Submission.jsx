@@ -18,7 +18,7 @@ export default function Submission() {
           <p className="text-lg md:text-xl leading-relaxed mb-6">
             Submit your research papers for
             <span className="font-semibold">
-              ICBDML-2026 - International Conference on
+              ICBDML-2026 - International Conference on{" "}
               <strong>Big Data and Machine Learning</strong>
             </span>
           </p>

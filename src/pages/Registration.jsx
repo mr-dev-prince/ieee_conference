@@ -21,7 +21,7 @@ export default function Registration() {
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto">
             Join us for <span className="font-semibold">ICBDML-2026</span> and
-            be part of cutting-edge research in
+            be part of cutting-edge research in <br />
             <strong>Big Data and Machine Learning</strong>.
           </p>
         </div>
