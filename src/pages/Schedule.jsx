@@ -145,7 +145,7 @@ const Schedule = () => {
           </p>
         </div>
       </header>
-      <div className="max-w-4xl mx-auto my-12 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+      <div className="max-w-7xl mx-auto my-12 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
         <div className="flex flex-col sm:flex-row items-center justify-between p-6 sm:p-8 gap-6">
           <div className="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
             <div className="w-16 h-16 bg-emerald-50 rounded-2xl border border-emerald-100 flex items-center justify-center flex-shrink-0 shadow-sm">
@@ -189,6 +189,12 @@ const Schedule = () => {
             >
               Download Excel
               <Download size={14} />
+            </a>
+            <a
+              href="/sessions"
+              className="inline-flex items-center gap-2 px-4 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded-xl shadow-sm hover:shadow-lg transition-all duration-200 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 w-full sm:w-auto justify-center"
+            >
+              Session Chairs and Links of all Sessions
             </a>
           </div>
         </div>
